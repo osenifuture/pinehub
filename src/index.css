@@ -62,7 +62,6 @@ code {
   justify-content: center;
   align-items: center;
   color: #18d5fe;
-  margin-left: 20px;
   text-decoration: none;
 }
 
@@ -87,6 +86,11 @@ code {
   .link {
     text-decoration: none;
     color: black;
+  }
+
+  .logo {
+    margin-right: 10px;
+    /* background-color: red; */
   }
 
   .mobile-link {
