@@ -230,6 +230,10 @@ code {
   color: black;
 }
 
+.form-container > form > p{
+  cursor: pointer;
+}
+
 .footer-container {
   width: 100%;
   display: flex;
