@@ -2,8 +2,10 @@ import "./home.css";
 import { Fragment } from "react";
 import Faq from "../Faq/Faqs";
 import TopCryptocurrencies from "../Price/BitcoinPrice";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const naviagte = useNavigate()
   return (
     <Fragment>
       <div className="home-mother">
@@ -14,7 +16,7 @@ const Home = () => {
             diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
             lorem sit clita duo justo magna dolore erat amet
           </p>
-          <button>Exploy More</button>
+          <button onClick={() => naviagte('/Login')}>Exploy More</button>
         </div>
         <div className="home-box">
           <div className="homebox-card">

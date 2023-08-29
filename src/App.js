@@ -9,8 +9,15 @@ import About from "./Route/About";
 import Contact from "./Route/Contact";
 import Navbar from "./nav/Navbar";
 import { Fragment } from "react";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 function App() {
+  const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0,0)
+  }, [location])
   return (
     <Fragment>
     <Routes>
