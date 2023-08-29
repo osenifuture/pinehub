@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #183152;
+  border-bottom: 1px solid lightgray;
+  color: #7ce3ff;
+  position: sticky;
+  z-index: 100;
+  top: 0%;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.nav-link {
+  width: 80%;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 40px;
+}
+
+.nav-link > .link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link > .link:hover {
+  color: #18d5fe;
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #18d5fe;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.logo > p {
+  font-size: 2rem;
+}
+
+.logo > .fa-brands {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  
+  .nav-link {
+    display: none;
+  }
+
+  .logo > p{
+    font-size: 1.2rem;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .mobile-link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    top: 70px;
+    position: absolute;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+
+  .mobile-menu {
+    display: block;
+    margin-right: 20px;
+  }
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding: 40px 0px;
+}
+
+.form-container > h1 {
+  margin: 15px;
+}
+
+.form-container > form {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.form-container > form > p {
+  margin: 8px;
+}
+
+.form-container > form > input {
+  width: 90%;
+  height: 40px;
+  margin: 5px 0px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  width: 90%;
+  height: 40px;
+  padding: 0px 10px;
+  margin: 5px 0px;
+}
+
+.pass > input {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.pass > span > .fa-solid {
+  color: #18d5fe;
+}
+
+.confirm-pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  width: 90%;
+  height: 40px;
+  padding: 0px 10px;
+  margin: 5px 0px;
+}
+
+.confirm-pass > span > .fa-solid {
+  color: #18d5fe;
+}
+
+.confirm-pass > input {
+  width: 100%;
+  outline: none;
+  border: none;
+  margin: 8px 0px;
+}
+
+.form-container > form > button {
+  width: 90%;
+  height: 35px;
+  margin: 5px 0px;
+  background: linear-gradient(to right, #18d5fe, #4364c4);
+  color: white;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container > form > select {
+  width: 90%;
+  height: 40px;
+  border: 1px solid lightgray;
+  margin: 5px 0px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.form-container > form > textarea {
+  width: 90%;
+  height: 100px;
+  border: 1px solid lightgray;
+  margin: 5px 0px;
+  padding: 10px;
+  outline: none;
+}
+
+.form-container > form > span {
+  margin: 5px;
+}
+
+.form-container > form > span > p {
+  color: black;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #183152;
+  color: white;
+  padding: 90px 100px;
+  gap: 40px;
+}
+
+.footer-box {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+
+.footer-box > span > h2 {
+  font-size: 2rem;
+}
+
+.footer-box > span {
+  width: 100%;
+  display: flex;
+}
+
+.footer-box > span > .fa-brands {
+  font-size: 25px;
+}
+
+.footer-box > span > .fa-solid {
+  font-size: 40px;
+}
+
+.footer-box > p {
+  margin: 20px 0px;
+}
+.footer-box > h3 {
+  margin: 20px 0px;
+}
+
+.footer-box > .footerbox-inner{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footerbox-inner > span{
+  display: flex;
+  gap: 10px;
+  margin: 8px 0px;
+}
+
+.footerbox-inner > span >a{
+  text-decoration: none;
+}
+
+.footerbox-inner > span > .fa-solid{
+  font-size: 1rem;
+}
+
+.footer-box > .link {
+  margin: 10px 0px;
+  text-decoration: none;
+  color: white;
+}
+
+span > a {
+  color: white;
+  margin: 0px 10px;
+}
+
+span > a > .fa-brands {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo{
+    width: 40%;
+  }
+ 
+  .footer-container {
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .footer-box {
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+  }
+
+  .footer-box > p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .form-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .form-container > form {
+    width: 100%;
+  }
+
+  .form-container > form > input {
+    width: 100%;
+  }
+
+  .pass {
+    width: 100%;
+  }
+
+  .confirm-pass {
+    width: 100%;
+  }
+
+  .form-container > form > button {
+    width: 40%;
+  }
+
+  .footer-container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer-box {
+    width: 100%;
+    height: 280px;
+    padding: 10px ;
+  }
+}
