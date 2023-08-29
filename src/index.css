@@ -250,7 +250,6 @@ code {
   align-items: flex-start;
   flex-direction: column;
   padding: 0px 20px;
-  background-color: red;
 }
 
 .footer-box > span > h2 {
