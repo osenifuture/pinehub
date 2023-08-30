@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
 import "./Service.css";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import CountContainer from "../Count/CountContainer";
 import OurService from "../Count/OurService";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Service = () => {
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
   return (
     <Fragment>
         <div className="service-container3">
             <div className="service-box3">
-                <h1>Services</h1>
+                <h1 data-aos="fade-down">Services</h1>
                 <span>
                 <Link to='/' className="service-link">Home</Link>/
                 <Link to='/Login'  className="service-link">Login</Link>/
@@ -18,7 +23,7 @@ const Service = () => {
                 </div>  
                 <div className="service-box3">
                     <div className="box3-card">
-                <img src="https://i.ibb.co/Wybh7fP/pexels-karolina-grabowska-5980582-removebg-preview.png" alt="" />
+                <img  data-aos="fade-up-left" src="https://i.ibb.co/Wybh7fP/pexels-karolina-grabowska-5980582-removebg-preview.png" alt="" />
                     </div>
                     </div>  
         </div>

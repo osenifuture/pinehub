@@ -1,26 +1,31 @@
 import "./home.css";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Faq from "../Faq/Faqs";
 import TopCryptocurrencies from "../Price/BitcoinPrice";
 import { useNavigate } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Home = () => {
   const naviagte = useNavigate()
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, []);
   return (
     <Fragment>
       <div className="home-mother">
-        <div className="home-box">
-          <h1>Make Better Life With Trusted CryptoCoin</h1>
-          <p>
+        <div className="home-box" >
+          <h1  data-aos="fade-down">Make Better Life With Trusted CryptoCoin</h1>
+          <p  data-aos="fade-up">
             Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
             diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
             lorem sit clita duo justo magna dolore erat amet
           </p>
-          <button onClick={() => naviagte('/Login')}>Exploy More</button>
+          <button data-aos="fade-up-left" onClick={() => naviagte('/Login')}>Exploy More</button>
         </div>
         <div className="home-box">
           <div className="homebox-card">
-            <img
+            <img  data-aos="fade-down"
               src="https://demo.htmlcodex.com/2597/free-cryptocurrency-website-template/img/hero-1.png"
               alt=""
             />
@@ -29,14 +34,14 @@ const Home = () => {
       </div>
       <div className="home-container1">
         <div className="home-box1">
-          <img
+          <img data-aos="fade-up-left"
             src="https://themewagon.github.io/crypto/img/about-img.png"
             alt=""
           />
         </div>
         <div className="home-box1">
-          <h1>What is Bitcoin</h1>
-          <h3>
+          <h1  data-aos="fade-down" >What is Bitcoin</h1>
+          <h3 data-aos="fade-up-right">
             Bitcoin is an innovative payment network and a new kind of money.
           </h3>
           <p>
@@ -46,7 +51,7 @@ const Home = () => {
             conveniently and without restriction. It’s the dawn of a better,
             more free world.
           </p>
-        <button>Get Started</button>
+        <button  data-aos="fade-up">Get Started</button>
         </div>
       </div>
       <div className="home-container2">
