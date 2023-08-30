@@ -90,7 +90,6 @@ code {
 
   .logo {
     margin-right: 10px;
-    /* background-color: red; */
   }
 
   .mobile-link {
@@ -118,8 +117,9 @@ code {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: whitesmoke;
+  background-color:#0F1123;
   padding: 40px 0px;
+  color: white;
 }
 
 .form-container > h1 {
