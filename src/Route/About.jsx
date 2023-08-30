@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 import "./About.css";
+import { Fragment } from "react";
+import Faq from "../Faq/Faqs";
 
 const About = () => {
   return (
+    <Fragment>
+
     <div className="about-container">
      <span>   
         <h1>
@@ -51,6 +55,12 @@ const About = () => {
       </div>
         </span>
     </div>
+    <div className="faq-mother">
+        <h1>FAQS</h1>
+            <Faq/>
+      </div>
+    
+    </Fragment>
   );
 };
 

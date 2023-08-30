@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className="nav-container">
                 <Link to="/" className="logo">
                 <i class="fa-brands fa-pinterest"></i>
-                    <p>Pine-Hub</p>
+                    <p>ine-Hub</p>
                 </Link>
                 <div className={ismobile ? "mobile-link" : "nav-link"} onClick={closeMenu}>
                     <Link to="/" className="link">

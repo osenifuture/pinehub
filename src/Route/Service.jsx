@@ -23,7 +23,7 @@ const Service = () => {
                 </div>  
                 <div className="service-box3">
                     <div className="box3-card">
-                <img  data-aos="fade-up-left" src="https://i.ibb.co/Wybh7fP/pexels-karolina-grabowska-5980582-removebg-preview.png" alt="" />
+                <img  data-aos="fade-up-left" src="https://i.ibb.co/7QcSdMY/pexels-pavel-danilyuk-8294568-removebg-preview.png" alt="" />
                     </div>
                     </div>  
         </div>
