@@ -1,13 +1,18 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const OurService = () => {
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
   return (
     <Fragment>
       <div className="ourservice-mother">
-        <h1>Services</h1>
+        <h1 data-aos="fade-down">Services</h1>
         <h2>Buy, Sell And Exchange Cryptocurrency</h2>
         <div className="service-container2">
-          <div className="ourservice-box">
+          <div data-aos="fade-up" className="ourservice-box">
             <i className="fa-solid fa-money-check-dollar"></i>
             <h3>Currency Wallets</h3>
             <p>
@@ -16,7 +21,7 @@ const OurService = () => {
               fiat money.
             </p>
           </div>
-          <div className="ourservice-box">
+          <div data-aos="fade-up" className="ourservice-box">
             <i className="fa-solid fa-hand-holding-dollar"></i>
             <h3>Currency Transaction</h3>
             <p>
@@ -25,7 +30,7 @@ const OurService = () => {
               transferring money internationally.
             </p>
           </div>
-          <div className="ourservice-box">
+          <div data-aos="fade-up" className="ourservice-box">
             <span>
               <i className="fa-brands fa-ethereum"></i>
               <i className="fa-solid fa-building-columns"></i>
@@ -37,7 +42,7 @@ const OurService = () => {
               volatile market.
             </p>
           </div>
-          <div className="ourservice-box">
+          <div data-aos="fade-up" className="ourservice-box">
             <i className="fa-solid fa-rotate"></i>
             <h3>Currency Exchange</h3>
             <p>
@@ -46,7 +51,7 @@ const OurService = () => {
               finance.
             </p>
           </div>
-          <div className="ourservice-box">
+          <div data-aos="fade-up" className="ourservice-box">
             <i className="fa-solid fa-arrow-right-arrow-left"></i>
             <h3>Crypto Swap</h3>
             <p>
@@ -55,7 +60,7 @@ const OurService = () => {
               trading digital assets.
             </p>
           </div>
-          <div className="ourservice-box">
+          <div data-aos="fade-up" className="ourservice-box">
             <i className="fa-solid fa-sterling-sign"></i>
             <h3>Token Sale</h3>
             <p>
