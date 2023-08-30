@@ -30,12 +30,12 @@ const Service = () => {
         <OurService/>
     <div className="service-mother">
         <div className="features-box">
-            <h1>Our Features</h1>
-            <p>Bitcoin is the simplest way to exchange money at very low cost.</p>
+            <h1 data-aos="fade-down">Our Features</h1>
+            <p data-aos="fade-up">Bitcoin is the simplest way to exchange money at very low cost.</p>
         </div>
         <div className="service-container1">
 
-      <div className="service-box">
+      <div data-aos="fade-right-up" className="service-box">
         <i className="fa-solid fa-earth-asia"></i>
         <span>
           <h3>Website</h3>
@@ -46,7 +46,7 @@ const Service = () => {
           </p>
         </span>
       </div>
-      <div className="service-box">
+      <div data-aos="fade-left-up" className="service-box">
         <i className="fa-solid fa-shield-halved"></i>
         <span>
           <h3>Safe and Secure</h3>
@@ -57,7 +57,7 @@ const Service = () => {
           </p>
         </span>
       </div>
-      <div className="service-box">
+      <div  data-aos="fade-down" className="service-box">
         <i className="fa-solid fa-wallet"></i>
         <span>
           <h3>Wallets</h3>
@@ -67,7 +67,7 @@ const Service = () => {
           </p>
         </span>
       </div>
-      <div className="service-box">
+      <div  data-aos="fade-up" className="service-box">
         <i className="fa-solid fa-headphones"></i>
         <span>
           <h3>Expert Support</h3>
@@ -77,7 +77,7 @@ const Service = () => {
           </p>
         </span>
       </div>
-      <div className="service-box">
+      <div  data-aos="fade-down-right"className="service-box">
         <i class="fa-solid fa-rotate"></i>
         <span>
           <h3>Instant Exchange</h3>
@@ -87,7 +87,7 @@ const Service = () => {
           </p>
         </span>
       </div>
-      <div className="service-box">
+      <div data-aos="fade-down-left" className="service-box">
         <i class="fa-solid fa-sliders"></i>
         <span>
           <h3>Recuring Buys</h3>
