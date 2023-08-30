@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f2f8fd;
+  background-image: radial-gradient(closest-corner at 30% 50% ,  #252BBE,#0F1123 ) ;
   padding: 50px 70px;
 }
 
@@ -48,10 +48,11 @@
 
 .home-box > h1 {
   font-size: 3.5rem;
+  color: white;
 }
 
 .home-box > p {
-  color: grey;
+  color:white;
   font-size: 1.1rem;
 }
 
@@ -72,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color:#0F1123 ;
 }
 
 .home-container1 > .home-box1 {
@@ -82,6 +83,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+
 }
 
 .home-box1 > h1 {
@@ -96,7 +98,7 @@
 }
 
 .home-box1 > p {
-  color: grey;
+  color:white;
   line-height: 1.6rem;
   margin: 10px 0px;
 }
@@ -123,11 +125,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    background: linear-gradient(to right, whitesmoke,  #acdbe6);  
+    background-color: #0F1123;
 }
 
-.home-container2 > h1{
+.home-container2 > span > h1{
     margin: 40px 0px;
+    color: white;
 }
 
 
@@ -137,7 +140,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 50px;
-    padding: 0px 10px;
+
 }
 
 
@@ -158,6 +161,7 @@
 
 .home-box2 > span > p{
     margin: 15px 0px;
+    color: white;
 }
 
 .home-box2 > .fa-solid{
@@ -173,12 +177,13 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color:whitesmoke;
+    background-color:#0F1123;
     padding: 10px 50px;
 }
 
 .faq-mother > h1{
     margin-top: 50px ;
+    color: white;
 }
 
 .faq-box{
@@ -250,6 +255,7 @@
 
   .home-mother > .home-box {
     width: 100%;
+   
   }
 
   .home-box > h1 {
@@ -263,20 +269,23 @@
     align-items: center;
   }
 
-  .homebox-card > img {
-    width: 90%;
-    height: 50%;
-  }
-
+  
   .home-container1 {
     width: 100%;
-    padding: 0px 20px;
     flex-direction: column;
   }
-
+  
   .home-container1 > .home-box1 {
     width: 100%;
     height: 450px;
+    padding: 0px 10px;
+
+  }
+  
+  .home-container1 > .home-box1 > img{
+    width: 100%;
+    height: 35%;
+
   }
 
   .home-box1 > h1{
@@ -299,7 +308,8 @@
   .home-container2{
     width: 100%;
     height: fit-content;
-    margin: 20px 0px;
+    padding: 20px 0px;
+
 }
 
 .home-container2 > span > h1{
@@ -348,9 +358,7 @@
 
 }
 
- 
-
-  .faq-box > .box > .answer-box{
+.faq-box > .box > .answer-box{
     min-width: 100%;
   }
 }
@@ -364,7 +372,6 @@
   .home-container1{
     width: 100%;
     flex-direction: column;
-    padding: 20px 20px;
   }
 
   .homecontainer2-inner{
@@ -386,20 +393,24 @@
 
 .top-crypto-container {
     text-align: center;
-    width: 98%;
+    width: 100%;
     overflow: auto;
-    margin: 50px 0px;
+    background-color:#0F1123;
+    color: white;
   }
+
+ 
   
   .crypto-table {
     width: 90%;
     padding: 10px 0px;
     margin: auto;
+
   }
 
   td {
     padding: 10px;
-    color: #4364c4;
+    color:#18d5fe;
   }
 
   th {

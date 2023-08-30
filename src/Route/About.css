@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.about-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    background: radial-gradient(closest-corner at 15%  75% , #8c2f4c, #0F1123);
+   
+}
+
+.about-container > span > h1 > .pine{
+    color: #18d5fe ;
+    text-decoration: none;
+}
+
+.about-container > span > .about-box{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  
+    color: white;
+    gap: 10px;
+
+}
+
+.about-box > .line{
+    width: 95%;
+    border: 1px solid grey;
+    margin: 20px 0px;
+}
+
+.about-container > span {
+    width: 68%;
+    display: flex;
+    gap: 30px;
+ 
+}
+
+.about-container > span > h1{
+    color: white;
+    font-weight: lighter;
+    margin: 70px 0px;
+}
+
+.about-box > h2{
+    color: white;
+}
+.about-box > p{
+    color:whitesmoke;
+    line-height: 30px;
+}
+
+.about-box > span{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media screen and (max-width:650px) {
+    .about-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .about-container > span{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+
+    .about-container > span > .about-box{
+        width: 100%;
+    }
+
+    .about-container > span > h1{
+        margin: 10px 0px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .about-container{
+        width: 100%;
+    }
+
+    .about-container > span{
+        width: 100%;
+        padding: 10px;
+    }
+    
+}

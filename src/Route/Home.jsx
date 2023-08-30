@@ -85,7 +85,6 @@ const Home = () => {
       </div>
       <div className="topcrypto">
       <TopCryptocurrencies/>
-
       </div>
       <div className="faq-mother">
         <h1>FAQS</h1>
