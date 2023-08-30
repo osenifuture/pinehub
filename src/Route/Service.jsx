@@ -31,7 +31,7 @@ const Service = () => {
     <div className="service-mother">
         <div className="features-box">
             <h1 data-aos="fade-down">Our Features</h1>
-            <p data-aos="fade-up">Bitcoin is the simplest way to exchange money at very low cost.</p>
+            <p data-aos="fade-down">Bitcoin is the simplest way to exchange money at very low cost.</p>
         </div>
         <div className="service-container1">
 
