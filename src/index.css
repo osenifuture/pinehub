@@ -18,6 +18,10 @@ code {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-container {
   width: 100%;
   height: 70px;
@@ -73,10 +77,16 @@ code {
   font-size: 2.5rem;
 }
 
+
+
 @media screen and (max-width: 650px) {
   
   .nav-link {
     display: none;
+  }
+
+  .nav-container{
+    border: none;
   }
 
   .logo > p{
@@ -96,14 +106,13 @@ code {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     background-color:#0F1123;
     top: 70px;
     position: absolute;
     gap: 30px;
-    padding: 30px 20px;
   }
 
   .mobile-link > .link{
@@ -113,6 +122,10 @@ code {
   .mobile-menu {
     display: block;
     margin-right: 20px;
+  }
+
+  .login-box{
+    display: block;
   }
 }
 
@@ -167,6 +180,7 @@ code {
   height: 40px;
   padding: 0px 10px;
   margin: 5px 0px;
+  border-radius: 5px;
 }
 
 .pass > input {
@@ -191,6 +205,7 @@ code {
   height: 40px;
   padding: 0px 10px;
   margin: 5px 0px;
+  border-radius: 5px;
 }
 
 .confirm-pass > span > .fa-solid {
@@ -328,6 +343,7 @@ span > a {
 span > a > .fa-brands {
   font-size: 30px;
 }
+
 
 @media screen and (max-width: 768px) {
 

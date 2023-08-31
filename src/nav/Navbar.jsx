@@ -1,9 +1,9 @@
 import { Link, Outlet } from "react-router-dom";
-import { Fragment, useContext, useState } from "react";
-import { AuthContext } from "../Context/AuthContext";
+import { Fragment,  useState } from "react";
+
 
 const Navbar = () => {
-    const {  isLoggedIn } = useContext(AuthContext);
+   
 
     const [ismobile, setIsmobile] = useState(false);
 
@@ -33,21 +33,9 @@ const Navbar = () => {
                             <Link to="/Service" className="link">
                                 Service
                             </Link>
-
-                    {isLoggedIn ? (
-                        <Fragment>
-                           
-                            <Link to="/Contact" className="link">
-                                Contact
-                            </Link>
-                        </Fragment>
-                    ) : (
-                        <Link to="/LogIn" className="link">
-                            Login
-                        </Link>
-                    )}
                 </div>
                 <div className="mobile-menu" onClick={handleMenu}>
+                   
                     {ismobile ? (
                         <i className="fa-solid fa-xmark"></i>
                     ) : (

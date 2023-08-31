@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(closest-corner at 20% 50% ,  #252BBE,#0F1123 ) ;
+  background-image: radial-gradient(closest-corner at 20% 50% , #b037dd,#0F1123 ) ;
 
 }
 
@@ -60,7 +60,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background: linear-gradient(to right, #18d5fe, #4364c4);
+  background: linear-gradient(to right, #18d5fe, #b037dd);
   margin: 20px 0px;
   color: white;
 }
