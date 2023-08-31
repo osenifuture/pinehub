@@ -1,15 +1,20 @@
 import { Link } from "react-router-dom";
 import "./About.css";
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import Faq from "../Faq/Faqs";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
   return (
     <Fragment>
 
     <div className="about-container">
      <span>   
-        <h1>
+        <h1 data-aos="fade-down">
           Pine-Hub is committed to providing steady gains and unparalleled
           customer service through our team of highly experienced crypto
           experts. Our advanced trading software, CloudIntelligence, utilizes
@@ -21,10 +26,10 @@ const About = () => {
         <span>
              <div className="about-box">
           <div className="line"></div>
-          <h2>
+          <h2 data-aos="fade-up">
             Revolutionizing Crypto Growth: Advanced Trading with Proven Success.
             </h2>
-            <p>
+            <p data-aos="fade-down">
               Our state-of-the-art cryptocurrency growth platform is expertly
               crafted and overseen by a team of experienced trading experts. Our
               cutting-edge trading bot, Pine-Hub Intelligence, utilizes
@@ -39,11 +44,11 @@ const About = () => {
          <div className="about-box">
 
           <div className="line"></div>
-          <h2>
+          <h2 data-aos="fade-up">
             Growth in Cryptocurrency Based on Proven Experience: Global Trust
             and Results
           </h2>
-          <p>
+          <p data-aos="fade-up">
             Our system has years of experience in cryptocurrency growth, and we
             have helped a large number of clients all around the world improve
             their financial holdings by using our services. Our cutting-edge
@@ -56,7 +61,7 @@ const About = () => {
         </span>
     </div>
     <div className="faq-mother">
-        <h1>FAQS</h1>
+        <h1 data-aos="fade-down">FAQS</h1>
             <Faq/>
       </div>
     

@@ -2,6 +2,7 @@ import "./home.css";
 import { Fragment, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Slider from "../slider/Slider";
 
 const Home = () => {
   useEffect(() => {
@@ -9,26 +10,25 @@ const Home = () => {
   }, []);
   return (
     <Fragment>
-      <div className="home-mother"></div>
+      <div className="slider-con" data-aos="zoom-in">
+        <Slider />
+      </div>
       <div className="home-container1">
         <div className="home-box1">
           <img
-            data-aos="fade-up-left"
+            data-aos="fade-up"
             src="https://themewagon.github.io/crypto/img/about-img.png"
             alt=""
           />
         </div>
         <div className="home-box1">
-          <h1 data-aos="fade-down">What is Bitcoin</h1>
-          <h3 data-aos="fade-up-right">
-            Bitcoin is an innovative payment network and a new kind of money.
-          </h3>
-          <p>
-            Bitcoin is one of the most important inventions in all of human
-            history. For the first time ever, anyone can send or receive any
-            amount of money with anyone else, anywhere on the planet,
-            conveniently and without restriction. It’s the dawn of a better,
-            more free world.
+          <h1 data-aos="fade-down">Pine-Hub</h1> 
+          <p data-aos="fade-up">
+            Welcome Pine-Hub - Pine Intelligence AI Trading Technology. Our
+            experienced team of asset management professionals offers a proven
+            and unique hybrid system that provides a sustainable and low-risk
+            income stream. Join us today to safeguard your financial future with
+            our cutting-edge automated passive income technology.
           </p>
           <button data-aos="fade-up">Get Started</button>
         </div>
@@ -71,8 +71,8 @@ const Home = () => {
         <div className="corevalue-container1">
           <h1>Core Values</h1>
           <div className="corevalue-container2">
-            <div  data-aos="fade-up" className="core-box">
-            <div className="core-line"></div>
+            <div data-aos="fade-up" className="core-box">
+              <div className="core-line"></div>
               <h2>Professionalism</h2>
               <p>
                 We pride ourselves on providing our clients with the highest
@@ -82,8 +82,8 @@ const Home = () => {
                 commitment to your financial growth.
               </p>
             </div>
-            <div  data-aos="fade-up" className="core-box">
-            <div className="core-line"></div>
+            <div data-aos="fade-up" className="core-box">
+              <div className="core-line"></div>
               <h2>Transparency</h2>
               <p>
                 We adhere to the philosophy of complete openness with each of
@@ -93,8 +93,8 @@ const Home = () => {
                 your financial success.
               </p>
             </div>
-            <div  data-aos="fade-up" className="core-box">
-            <div className="core-line"></div>
+            <div data-aos="fade-up" className="core-box">
+              <div className="core-line"></div>
               <h2>Security</h2>
               <p>
                 We place a premium on safety, and we use cutting-edge technology
@@ -103,8 +103,8 @@ const Home = () => {
                 that the safety and protection of your crypto is a top priority
               </p>
             </div>
-            <div  data-aos="fade-up" className="core-box">
-            <div className="core-line"></div>
+            <div data-aos="fade-up" className="core-box">
+              <div className="core-line"></div>
               <h2>Trust</h2>
               <p>
                 We believe in establishing trust with our customers by
@@ -115,8 +115,8 @@ const Home = () => {
                 possible.
               </p>
             </div>
-            <div  data-aos="fade-up" className="core-box">
-            <div className="core-line"></div>
+            <div data-aos="fade-up" className="core-box">
+              <div className="core-line"></div>
               <h2>Flexibility</h2>
               <p>
                 We recognize that each individual pursuing financial growth has
@@ -126,8 +126,8 @@ const Home = () => {
                 experience, we have the perfect solution for you.
               </p>
             </div>
-            <div  data-aos="fade-up" className="core-box">
-            <div className="core-line"></div>
+            <div data-aos="fade-up" className="core-box">
+              <div className="core-line"></div>
               <h2>Innovation</h2>
               <p>
                 We are perpetually innovating and enhancing our platform to

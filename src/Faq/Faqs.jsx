@@ -1,4 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Faq = () => {
   const [isOpen1, setIsOpen1] = useState(false);
@@ -62,11 +64,15 @@ const Faq = () => {
     setIsOpen5(false);
   
   };
+
+  useEffect(() => {
+    Aos.init({duration:1000})
+  }, [])
  
 
   return (
     <div className="faq-box">
-      <div className="box">
+      <div className="box" data-aos="fade-down">
         <span onClick={handleToggle1}>
           <i class="fa-regular fa-circle-question"></i>
           <p>Is Pine-Hub a safe trading platform? </p>
@@ -88,7 +94,7 @@ const Faq = () => {
         )}
       </div>
 
-      <div className="box">
+      <div className="box" data-aos="fade-up">
         <span onClick={handleToggle2}>
           <i class="fa-regular fa-circle-question"></i>
           <p> What is the Trading Forex </p>
@@ -110,7 +116,7 @@ const Faq = () => {
         )}
       </div>
 
-      <div className="box">
+      <div className="box" data-aos="fade-down">
         <span onClick={handleToggle3}>
           <i class="fa-regular fa-circle-question"></i>
           <p> What moves the forex market</p>
@@ -131,7 +137,7 @@ const Faq = () => {
         )}
       </div>
 
-      <div className="box">
+      <div className="box" data-aos="fade-up">
         <span onClick={handleToggle4}>
           <i class="fa-regular fa-circle-question"></i>
           <p> What is the commodity Trading. </p>
@@ -151,7 +157,7 @@ const Faq = () => {
         )}
       </div>
 
-      <div className="box">
+      <div className="box" data-aos="fade-down">
         <span onClick={handleToggle5}>
           <i class="fa-regular fa-circle-question"></i>
           <p> How does CDFs work</p>
@@ -173,7 +179,7 @@ const Faq = () => {
         )}
       </div>
 
-      <div className="box">
+      <div className="box" data-aos="fade-up">
         <span onClick={handleToggle6}>
           <i class="fa-regular fa-circle-question"></i>
           <p> What about Privacy policy?</p>

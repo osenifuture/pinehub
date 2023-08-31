@@ -26,14 +26,17 @@ const Navbar = () => {
                     <Link to="/" className="link">
                         Home
                     </Link>
+
+                    <Link to="/About" className="link">
+                                About
+                            </Link>
                             <Link to="/Service" className="link">
                                 Service
                             </Link>
+
                     {isLoggedIn ? (
                         <Fragment>
-                            <Link to="/About" className="link">
-                                About
-                            </Link>
+                           
                             <Link to="/Contact" className="link">
                                 Contact
                             </Link>

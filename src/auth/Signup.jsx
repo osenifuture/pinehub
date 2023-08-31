@@ -1,6 +1,8 @@
-import { useState, useContext } from "react"
+import { useState, useContext, useEffect } from "react"
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const defaultForm = {
     fullname: "",
@@ -47,19 +49,23 @@ const SignUp = () => {
         setForm({...formField, [name] : value})
     }
 
+    useEffect(() => {
+        Aos.init({duration:1000})
+    }, [])
+
     return(
         <div className="form-container">
             <h1>SIGN UP</h1>
             <form onSubmit={handleSubmit}>
-                <input type="tex" placeholder="Fullname" name="fullname"  value={fullname} onChange={handleChange} required/>
-                <input type="text" placeholder="Username" name="username" value={username} onChange={handleChange} required />
-                <input type="email" placeholder="Email" name="email" value={email} onChange={handleChange} required />
-                <input type="number" placeholder="Phone" name="number" value={number} onChange={handleChange} required />
-                <div className="pass">
+                <input type="tex" placeholder="Fullname" name="fullname"  value={fullname} onChange={handleChange} required data-aos="fade-down"/>
+                <input type="text" placeholder="Username" name="username" value={username} onChange={handleChange} required data-aos="fade-up" />
+                <input type="email" placeholder="Email" name="email" value={email} onChange={handleChange} required  data-aos="fade-down"/>
+                <input type="number" placeholder="Phone" name="number" value={number} onChange={handleChange} required data-aos="fade-up" />
+                <div data-aos="fade-down" className="pass">
                 <input  type={show1 ? "text"  : "password"} name="password" placeholder="Password" value={password} onChange={handleChange}  />
                     <span onClick={handleShowpassword1}>{ show1 ? <i className="fa-solid fa-eye-slash"></i> : <i className="fa-solid fa-eye"></i> }</span>
                     </div>
-                    <div className="confirm-pass">
+                    <div data-aos="fade-up" className="confirm-pass">
                 <input type={show2 ? "text" : "password"}  name="confirmpassword" placeholder="Confirm Password" value={confirmPassword} onChange={handleChange} />
                 <span onClick={handleShowpassword2}>{ show2 ? <i className="fa-solid fa-eye-slash"></i>  : <i className="fa-solid fa-eye"></i> }</span>
                     </div>
