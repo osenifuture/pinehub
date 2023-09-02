@@ -7,12 +7,12 @@ const Platform = () => {
     const [isOpen2, setIsOpen2] = useState(false);
 
     const handleToggle1 = () => {
-            setIsOpen1((prevOpen) => !prevOpen);
+           setIsOpen1(true)
             setIsOpen2(false);
     };
     const handleToggle2 = () => {
-            setIsOpen2((prevOpen) => !prevOpen);
-            setIsOpen1(false)
+        setIsOpen2(true)
+        setIsOpen1(false)
     };
     return(
         

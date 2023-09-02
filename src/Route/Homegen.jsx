@@ -1,6 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Homegen = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   const [general, setGenaral] = useState(true);
   const [account, setAccount] = useState(false);
   const [deposit, setDeposit] = useState(false);
@@ -151,13 +157,13 @@ const Homegen = () => {
         </div>
       </div>
       {general && (
-        <div className="gen">
+        <div className="gen" data-aos="flip-up">
           <ul>
             <li onClick={handlepine1}>
               What is Pine-Hub? <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub1 && (
-              <span>
+              <span data-aos="fade-up">
                 Pine-Hub is a premier provider of digital asset management
                 services that caters to the needs of both individuals and
                 institutions seeking growth. Our platform offers a broad range
@@ -176,7 +182,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub2 && (
-              <span>
+              <span data-aos="fade-up">
                 We generate gains by integrating expert growth strategies with
                 our unique AI-driven trading tool, CloudIntelligence. Our
                 skilled traders and analysts leverage their in-depth
@@ -198,7 +204,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub3 && (
-              <span>
+              <span data-aos="fade-up">
                 CloudIntelligence is CloudFi's proprietary AI-driven trading
                 tool, constructed with the sole aim to boost growth yields in
                 the cryptocurrency market. CloudIntelligence continuously
@@ -227,7 +233,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub4 && (
-              <span>
+              <span data-aos="fade-up">
                 While a daily return of 1.25% may seem appealing, it is
                 important to understand that the cryptocurrency market is highly
                 volatile and offers significant opportunities for growth. At
@@ -247,7 +253,7 @@ const Homegen = () => {
               steps: <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub5 && (
-              <span>
+              <span data-aos="fade-up">
                 Getting started with crypto gains on CloudFi is easy. Follow
                 these simple steps: - Register an account: Go to our website and
                 click on the "Register" button. Fill in the necessary
@@ -271,7 +277,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub6 && (
-              <span>
+              <span data-aos="fade-up">
                 Getting started with crypto gains on CloudFi is easy. Follow
                 these simple steps: - Register an account: Go to our website and
                 click on the "Register" button. Fill in the necessary
@@ -295,7 +301,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub7 && (
-              <span>
+              <span data-aos="fade-up">
                 You can earn commissions on CloudFi through our referral
                 program. For every person you refer to CloudFi who makes a
                 deposit, you will receive a commission based on their deposit
@@ -313,7 +319,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub8 && (
-              <span>
+              <span data-aos="fade-up">
                 Getting started with crypto gains on CloudFi is easy. Follow
                 these simple steps: - Register an account: Go to our website and
                 click on the "Register" button. Fill in the necessary
@@ -337,7 +343,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub9 && (
-              <span>
+              <span data-aos="fade-up"> 
                 Yes, we offer a Team Leaders program for dedicated and
                 high-performing users. To become a Team Leader, you must meet
                 the following criteria: - The investor must be at least on Tier
@@ -351,7 +357,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub10 && (
-              <span>
+              <span data-aos="fade-up">
                 Yes, we offer Team Leader rewards based on the turnover of your
                 first-level team. The rewards are as follows: - $10,000 USD team
                 turnover: Reward = $200 USD - $50,000 USD team turnover: Reward
@@ -371,7 +377,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub11 && (
-              <span>
+              <span data-aos="fade-up">
                 Yes, we offer special referral rates for Team Leaders on 10
                 levels as follows: - Level 1: 7% - Level 2: 4% - Level 3: 3% -
                 Level 4: 1% - Level 5: 1% - Level 6: 1% - Level 7: 1% - Level 8:
@@ -387,14 +393,14 @@ const Homegen = () => {
       )}
 
       {account && (
-        <div className="acc">
+        <div className="acc" data-aos="flip-up">
           <ul>
             <li onClick={handleacc1}>
               Is 2FA mandatory for withdrawals?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pineacc1 && (
-              <span>
+              <span data-aos="fade-up">
                 Yes, 2FA (Two-Factor Authentication) is mandatory for
                 withdrawals. You need to have 2FA enabled to be able to add your
                 Bitcoin address in the settings for withdrawals. This additional
@@ -409,7 +415,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pineacc2 && (
-              <span>
+              <span data-aos="fade-up">
                 To add a withdrawal address for your withdrawals, follow these
                 steps: 1. Make sure you have enabled 2FA (Two-Factor
                 Authentication) on your account. If you haven't already, follow
@@ -432,14 +438,14 @@ const Homegen = () => {
       )}
 
       {deposit && (
-        <div className="depo">
+        <div className="depo" data-aos="flip-up">
           <ul>
             <li onClick={handledepo1}>
               What plan do you offer?{" "}
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo1 && (
-              <span>
+              <span data-aos="fade-up">
                 Our gains plan offers 1.25% daily returns, 6.25% after 5
                 business days, 25% a month, 250% after 10 months.
               </span>
@@ -450,7 +456,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo2 && (
-              <span>
+              <span data-aos="fade-up">
                 At CloudFi, we aim to cater to a wide range of financial
                 capacities. You can deposit any amount between a minimum of $100
                 and a maximum of $1,000,000.
@@ -461,7 +467,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo3 && (
-              <span>
+              <span data-aos="fade-up">
                 Pine-Hub accepts Bitcoin (BTC), Ethereum (ETH), Tether (USDT -
                 ETH and USDT - Tron), Dogecoin (DOGE), USD Coin (USDC), Litecoin
                 (LTC), Binance USD (BUSD - Ethereum Network), Bitcoin Cash
@@ -482,7 +488,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo4 && (
-              <span>
+              <span data-aos="fade-up">
                 Absolutely, you can have multiple active deposits at any given
                 time. Each deposit will operate independently until it reaches
                 250%. Deposits can be made at different times throughout the
@@ -494,7 +500,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo5 && (
-              <span>
+              <span data-aos="fade-up">
                 No, we don't offer compounding. However, you can always withdraw
                 your gains and deposit again.
               </span>
@@ -504,7 +510,7 @@ const Homegen = () => {
               account? <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo6 && (
-              <span>
+              <span data-aos="fade-up">
                 Upon making a deposit, it will typically appear in your account
                 after 2 to 3 blockchain network confirmations. These
                 confirmations verify the transaction and add it to the
@@ -523,7 +529,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinedepo7 && (
-              <span>
+              <span data-aos="fade-up">
                 Once your deposit has reached 250% in gains, it will cease to
                 generate further income. Essentially, your deposit "expires" at
                 this point. However, this doesn't mean the end of your earnings
@@ -537,14 +543,14 @@ const Homegen = () => {
       )}
 
       {withdrawal && (
-        <div className="withd">
+        <div className="withd" data-aos="flip-up">
           <ul>
             <li onClick={handleWithd1}>
               What is the minimum/maximum withdrawal amount?{" "}
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinewithd1 && (
-              <span>
+              <span data-aos="fade-up">
                 As a reputable and dependable business, we prioritize offering
                 our clients with convenient and adaptable solutions to ensure
                 seamless accessibility. The minimum withdrawal threshold has
@@ -561,7 +567,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinewithd2 && (
-              <span>
+              <span data-aos="fade-up">
                 Pine-Hub processes withdrawals instantly. The duration for the
                 receipt of your funds is subject to the processing times of the
                 blockchain network and your wallet provider. Typically, Bitcoin
@@ -578,7 +584,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinewithd3 && (
-              <span>
+              <span data-aos="fade-up">
                 Our company exclusively offers Bitcoin (BTC) as a payment option
                 to our valued clients. This guarantees swift and secure
                 transactions for our clientele.
