@@ -3,6 +3,8 @@ import { Fragment, useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Slider from "../slider/Slider";
+import Platform from "../Faq/Platform";
+import Homegen from "./Homegen";
 
 const Home = () => {
   useEffect(() => {
@@ -33,6 +35,10 @@ const Home = () => {
           <button data-aos="fade-up">Get Started</button>
         </div>
       </div>
+      <div className="home-container3">
+          <Platform/>
+      </div>
+      <Homegen/>
       <div className="home-container2">
         <span>
           <h1>Our Investment Plans</h1>
@@ -69,7 +75,7 @@ const Home = () => {
       </div>
       <div className="corevalue-mother">
         <div className="corevalue-container1">
-          <h1>Core Values</h1>
+          <h1>Pine Values</h1>
           <div className="corevalue-container2">
             <div data-aos="fade-up" className="core-box">
               <div className="core-line"></div>

@@ -19,7 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(closest-corner at 20% 50% , #b037dd,#0F1123 ) ;
+  background: linear-gradient(to top,#0F1123,  #b037dd );
+  /* background-image: radial-gradient(closest-corner at 20% 50% , #b037dd,#0F1123 ) ; */
 
 }
 
@@ -72,7 +73,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    background-color: #0F1123;
+    background: linear-gradient(to top,  #b037dd, #0F1123 80% );
+    /* background-color: #0F1123; */
 }
 
 .home-container2 > span > h1{
@@ -167,6 +169,130 @@
   line-height: 30px;
 }
 
+.home-container3{
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(closest-corner at  70%, #b037dd, #0F1123 );
+}
+
+.platform-container{
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+  color: white;
+  flex-direction: column;
+}
+
+.platform-box1{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+.platform-container > .platform-box1 > span{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.platform-container > .platform-box1 > span > button{
+  width:15px;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 100%;
+  cursor: pointer;
+  background-color: #0F1123;
+}
+
+
+.platform-box2{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+}
+
+ .platform-box2 > .box{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.platform-box2 > .box > h3{
+  color: lightgrey;
+}
+
+.platform-box2 > .box > .fa-solid {
+  font-size: 3rem;
+  margin: 50px 0px;
+  color: #18d5fe;
+}
+
+.platform-box2 > .box > .fa-regular{
+  font-size: 3rem;
+  margin: 50px 0px;
+  color: #18d5fe;
+}
+
+.platform-box2 > .box > .fa-brands{
+  font-size: 3rem;
+  margin: 50px 0px;
+  color: #18d5fe;
+
+}
+
+.platform-box2 > .box > .fa-brands{
+  font-size: 3rem;
+  margin: 50px 0px;
+  color: #18d5fe;
+
+}
+
+.platform-box2 > .box > span > .fa-solid{
+  font-size: 3rem;
+  position: relative;
+  margin: 50px 0px;
+  color: #18d5fe;
+  left: 15px;
+}
+
+@media screen and (max-width:650px) {
+  .platform-container{
+    width: 100%;
+  }
+
+  .platform-box1{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .platform-box1 > span{
+    width: 100%;
+  }
+
+  .platform-box2{
+    width: 100%;
+    overflow: auto;
+  }
+
+   .platform-box2 > .box{
+    min-width: 50%;
+  }
+  
+}
+
+
+
+
 @media screen and (max-width: 768px) {
   .home-mother {
     width: 100%;
@@ -187,6 +313,15 @@
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 3fr);
+  }
+
+  .platform-container{
+    width: 100%;
+  }
+
+
+  .platform-box2 > .box{
+    width: 80%;
   }
 
 }
@@ -417,3 +552,134 @@ h1 {
 
 }
 
+
+.general-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(closest-corner at  70%, #b037dd, #0F1123 );
+}
+
+.general-switchs {
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.general,
+.account,
+.deposit,
+.withdrawal {
+  width: 340px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px lightgray;
+  margin: 15px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.general:hover,
+.account:hover,
+.deposit:hover,
+.withdrawal:hover{
+  background-color: rgba(255, 255, 255,0.1);
+}
+
+.general:focus,
+.account:focus,
+.deposit:focus,
+.withdrawal:focus{
+  outline: none;
+  background-color: rgba(255, 255, 255,0.2);
+} 
+
+.general > .fa-solid,
+.account > .fa-solid,
+.deposit > .fa-solid,
+.withdrawal > .fa-solid {
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width:650px) {
+.general,
+.account,
+.deposit,
+.withdrawal {
+  flex-direction: row;
+  font-size: 0.5rem;
+  padding: 10px 15px;
+  height: fit-content;
+}
+
+.general > .fa-solid,
+.account > .fa-solid,
+.deposit > .fa-solid,
+.withdrawal > .fa-solid {
+  font-size: 1.3rem;
+  padding: 10px 15px;
+}
+
+.general-switchs {
+  overflow: auto;
+  justify-content: flex-start;
+}
+}
+
+.gen,
+.acc,
+.depo,
+.withd {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+}
+
+.gen > ul,
+.acc > ul,
+.depo > ul,
+.withd > ul {
+  width: 95%;
+  transition:  1s ease-in-out;
+}
+
+.gen > ul > li,
+.acc > ul > li,
+.depo > ul > li,
+.withd > ul > li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  font-size: 1.3rem;
+  color: white;
+  border-top: 1px solid ;
+  cursor: pointer;
+  font-weight:600;
+  margin: 10px 0px;
+  transition:  1s ease-in-out;
+}
+
+.gen > ul > span,
+.acc > ul > span,
+.depo > ul > span,
+.withd > ul > span {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  padding: 10px 0px;
+  transition:  1s ease-in-out;
+}

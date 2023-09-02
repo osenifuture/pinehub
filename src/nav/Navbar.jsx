@@ -3,8 +3,6 @@ import { Fragment,  useState } from "react";
 
 
 const Navbar = () => {
-   
-
     const [ismobile, setIsmobile] = useState(false);
 
     const handleMenu = () => {

@@ -70,7 +70,7 @@ const SignUp = () => {
                 <span onClick={handleShowpassword2}>{ show2 ? <i className="fa-solid fa-eye-slash"></i>  : <i className="fa-solid fa-eye"></i> }</span>
                     </div>
                 <button>SEND</button>
-                <p onClick={() => navigate('/')} className="handle-button">Member already? Login</p>
+                <p onClick={() => navigate('/Login')} className="handle-button">Member already? Login</p>
             </form>
         </div>
     )
