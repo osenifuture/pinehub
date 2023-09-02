@@ -555,6 +555,7 @@ h1 {
 .general-container {
   width: 100%;
   display: flex;
+  overflow: auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -567,8 +568,6 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 60px 0px;
- 
-  /* background-color: gray; */
 }
 
 .general,
@@ -683,4 +682,11 @@ h1 {
   line-height: 1.2;
   padding: 10px 0px;
   transition:  1s ease-in-out;
+}
+
+
+.homegen-con {
+  width: 100%;
+  height: fit-content;
+  background-color: pink;
 }

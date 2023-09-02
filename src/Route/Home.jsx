@@ -38,7 +38,9 @@ const Home = () => {
       <div className="home-container3">
           <Platform/>
       </div>
+      <div className="homegen-con">
       <Homegen/>
+      </div>
       <div className="home-container2">
         <span data-aos="fade-down"> 
           <h1>Our Investment Plans</h1>
