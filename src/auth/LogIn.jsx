@@ -13,6 +13,7 @@ const defaultForm = {
 const LogIn = () => {
     const [formField, setForm] = useState(defaultForm);
     const { email, password, confirmpassword} = formField;
+    const [error, setError] = useState(false)
     const naviagte = useNavigate()
     const {Login}  = useContext(AuthContext);
     const [show1, setshow1] = useState(false)
@@ -22,12 +23,22 @@ const LogIn = () => {
         setForm(defaultForm)
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log(formField)
-        resetForm()
-        Login()
-        naviagte('/')
+        if(password.length === 0) {
+            setError('Pls enter Password ');
+        } else if(password.length < 6) {
+            setError(' Password must be at least  six characters');
+        } else if(confirmpassword.length === 0) {
+            setError('Pls confirm Password');
+        } else if(password !== confirmpassword)  {
+                setError('Wrong Password')
+        } else {
+                console.log(formField)
+                resetForm()
+                Login()
+                naviagte('/')
+        }
     };
 
 
@@ -68,6 +79,7 @@ const LogIn = () => {
                     </div>
             <button data-aos="fade-down">Login</button>
             <p onClick={handleNav} className="handle-button">Not Register yet? Sign up </p>
+            { error && <p style={{color: 'red'}}>{error}</p>  }
         </form>
     </div>
     );

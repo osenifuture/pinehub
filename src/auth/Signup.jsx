@@ -20,19 +20,29 @@ const SignUp = () => {
     const {Login, Logout} = useContext(AuthContext)
     const [show1, setshow1] = useState(false)
     const [show2, setshow2] = useState(false)
+    const [error, setError] = useState(false);
 
     const resetForm = () => {
         setForm(defaultForm)
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async(e) => {
         e.preventDefault();
-        console.log(formField)
-        resetForm()
-        Logout()
-        Login()
-        navigate('/')
-        
+        if(password.length === 0) {
+            setError('Pls enter Password');
+        } else if(password.length < 6) {
+            setError('Password must be at least  six characters');
+        } else if(confirmPassword.length === 0) {
+            setError('Pls confirm password');
+        } else if(password !== confirmPassword) {
+            setError('Wrong psaaword')
+        } else {
+            console.log(formField)
+            resetForm()
+            Logout()
+            Login()
+            navigate('/Login')
+        }     
     };
 
 
@@ -66,11 +76,12 @@ const SignUp = () => {
                     <span onClick={handleShowpassword1}>{ show1 ? <i className="fa-solid fa-eye-slash"></i> : <i className="fa-solid fa-eye"></i> }</span>
                     </div>
                     <div data-aos="fade-up" className="confirm-pass">
-                <input type={show2 ? "text" : "password"}  name="confirmpassword" placeholder="Confirm Password" value={confirmPassword} onChange={handleChange} />
+                <input type={show2 ? "text" : "password"}  name="confirmPassword" placeholder="Confirm Password" value={confirmPassword} onChange={handleChange} />
                 <span onClick={handleShowpassword2}>{ show2 ? <i className="fa-solid fa-eye-slash"></i>  : <i className="fa-solid fa-eye"></i> }</span>
                     </div>
                 <button>SEND</button>
                 <p onClick={() => navigate('/Login')} className="handle-button">Member already? Login</p>
+                {error && <p style={{color: 'red'}}>{error}</p>}
             </form>
         </div>
     )

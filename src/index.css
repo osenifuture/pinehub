@@ -171,6 +171,7 @@ html {
   border: 1px solid whitesmoke;
   background-color: #102870;
   outline: none;
+  color: white;
   border-radius: 5px;
 }
 
@@ -192,6 +193,7 @@ html {
   width: 100%;
   outline: none;
   border: none;
+  color: white;
   background-color: #102870;
 }
 
@@ -222,6 +224,7 @@ html {
   width: 100%;
   outline: none;
   border: none;
+  color: white;
   margin: 8px 0px;
   background-color: #102870;
 }
