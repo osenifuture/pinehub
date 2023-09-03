@@ -1,9 +1,13 @@
-import { Link, Outlet } from "react-router-dom";
-import { Fragment,  useState } from "react";
+import { Link, Outlet, useNavigate } from "react-router-dom";
+import { Fragment,  useState, useContext } from "react";
+import { AuthContext } from "../Context/AuthContext";
 
 
 const Navbar = () => {
+    const {Logout} = useContext(AuthContext);
     const [ismobile, setIsmobile] = useState(false);
+    const navigate = useNavigate()
+
 
     const handleMenu = () => {
         setIsmobile(!ismobile);
@@ -12,6 +16,11 @@ const Navbar = () => {
     const closeMenu = () => {
         setIsmobile(false);
     };
+
+    const handleLogOut = () => {
+        Logout()
+        navigate('/Login')
+    }
 
     return (
         <Fragment>
@@ -32,6 +41,9 @@ const Navbar = () => {
                                 Service
                             </Link>
                 </div>
+                 <span>
+                    <p onClick={handleLogOut}>Logout</p>
+                </span>
                 <div className="mobile-menu" onClick={handleMenu}>
                    
                     {ismobile ? (

@@ -77,6 +77,14 @@ html {
   font-size: 2.5rem;
 }
 
+.nav-container > span > p{
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  margin-right: 40px;
+
+}
+
 
 
 @media screen and (max-width: 650px) {

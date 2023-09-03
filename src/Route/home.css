@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to top,#0F1123,  #b037dd );
+  background: linear-gradient(to top,#0F1123,  #30083e );
 
 }
 
@@ -211,6 +211,10 @@
   border-radius: 100%;
   cursor: pointer;
   background-color: #0F1123;
+}
+
+.platform-container > .platform-box1 > span > button:focus{
+      background-color: #18d5fe;
 }
 
 
