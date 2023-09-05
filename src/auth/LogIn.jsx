@@ -79,7 +79,7 @@ const LogIn = () => {
                     </div>
             <button data-aos="fade-down">Login</button>
             <p onClick={handleNav} className="handle-button">Not Register yet? Sign up </p>
-            { error && <p style={{color: 'red'}}>{error}</p>  }
+            { error && <p style={{color: 'red', textAlign: 'center'}}>{error}</p>  }
         </form>
     </div>
     );

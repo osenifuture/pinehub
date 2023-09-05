@@ -23,13 +23,13 @@ const Platform = () => {
         
         <div className="platform-container">
             <div className="platform-box1" >
-            <span data-aos="fade-down">
+            <span data-aos="fade-down"  onClick={handleToggle1}>
               <h2>How to Start</h2>
-            <button onClick={handleToggle1}></button>
+            <button></button>
             </span>
-           <span data-aos="fade-up">
+           <span data-aos="fade-up" onClick={handleToggle2}>
             <h2>Platform Highlight</h2>
-           <button onClick={handleToggle2}></button>
+           <button ></button>
            </span>
             </div>
             {

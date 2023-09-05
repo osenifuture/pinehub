@@ -1,12 +1,14 @@
-import { Link, Outlet, useNavigate } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { Fragment,  useState, useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 
 
+
 const Navbar = () => {
-    const {Logout} = useContext(AuthContext);
+    const {isLoggedIn} = useContext(AuthContext);
     const [ismobile, setIsmobile] = useState(false);
-    const navigate = useNavigate()
+    
+
 
 
     const handleMenu = () => {
@@ -17,10 +19,7 @@ const Navbar = () => {
         setIsmobile(false);
     };
 
-    const handleLogOut = () => {
-        Logout()
-        navigate('/Login')
-    }
+    
 
     return (
         <Fragment>
@@ -33,24 +32,24 @@ const Navbar = () => {
                     <Link to="/" className="link">
                         Home
                     </Link>
-
-                    <Link to="/About" className="link">
-                                About
-                            </Link>
-                            <Link to="/Service" className="link">
-                                Service
-                            </Link>
-                </div>
-                 <span>
-                    <p onClick={handleLogOut}>Logout</p>
-                </span>
+                    <Link to="/About" className="link">About</Link>
+                    <Link to="/Service" className="link">Service</Link>
+                {
+                    isLoggedIn && (
+                        <Link to='/Profile' className="profile-link">
+                            Profile
+                        <i className="fa-solid fa-user" ></i>
+                        </Link>
+                    )
+                }
+                </div> 
                 <div className="mobile-menu" onClick={handleMenu}>
-                   
                     {ismobile ? (
                         <i className="fa-solid fa-xmark"></i>
                     ) : (
                         <i className="fa-solid fa-bars"></i>
                     )}
+
                 </div>
             </div>
             <Outlet />
@@ -59,3 +58,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+

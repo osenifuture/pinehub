@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Slider from "../slider/Slider";
 import Platform from "../Faq/Platform";
 import Homegen from "./Homegen";
-
+import { Link } from "react-router-dom";
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="home-box1">
           <h1 data-aos="fade-down">Pine-Hub</h1> 
           <p data-aos="fade-up">
-            Welcome Pine-Hub - Pine Intelligence AI Trading Technology. Our
+            Welcome to Pine-Hub: At Pine Intelligence Trading Technology, our
             experienced team of asset management professionals offers a proven
             and unique hybrid system that provides a sustainable and low-risk
             income stream. Join us today to safeguard your financial future with
@@ -34,6 +34,18 @@ const Home = () => {
           </p>
           <button data-aos="fade-up">Get Started</button>
         </div>
+      </div>
+      <div className="about-container">
+      <span>   
+        <h1 data-aos="fade-down">
+          Pine-Hub is committed to providing steady gains and unparalleled
+          customer service through our team of highly experienced crypto
+          experts. Our advanced trading software, CloudIntelligence, utilizes
+          top-tier algorithms to enhance your growth potential and
+          profitability. Experience the forefront of professional cryptocurrency
+          growth with <Link to='/' className="pine">Pine-Hub</Link> today.
+        </h1>
+        </span>
       </div>
       <div className="home-container3">
           <Platform/>

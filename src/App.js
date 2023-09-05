@@ -11,6 +11,10 @@ import Navbar from "./nav/Navbar";
 import { Fragment } from "react";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import Profile from "./Route/Profile";
+import Term from "./Faq/Term";
+
+
 
 function App() {
   const location = useLocation()
@@ -27,7 +31,9 @@ function App() {
         <Route path="/Service" element={<Service/>}/>
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/LogIn" element={<LogIn/>}/>
-        <Route path="SignUp" element={<SignUp/>}/>
+        <Route path="/SignUp" element={<SignUp/>}/>
+        <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/Term" element={<Term/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Route>
     </Routes>

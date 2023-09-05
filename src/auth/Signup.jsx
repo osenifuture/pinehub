@@ -81,7 +81,7 @@ const SignUp = () => {
                     </div>
                 <button>SEND</button>
                 <p onClick={() => navigate('/Login')} className="handle-button">Member already? Login</p>
-                {error && <p style={{color: 'red'}}>{error}</p>}
+                {error && <p style={{color: 'red', textAlign:'center'}}>{error}</p>}
             </form>
         </div>
     )

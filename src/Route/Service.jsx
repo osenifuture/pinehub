@@ -28,7 +28,7 @@ const Service = () => {
             </span>
           </div>
           <div className="service-box3">
-            <h2>
+            <h2 data-aos="zoom-in">
               Artificial intelligence in crypto trading utilizes advanced
               algorithms to analyze market trends, historical data, and
               real-time information, enabling automated decision-making for

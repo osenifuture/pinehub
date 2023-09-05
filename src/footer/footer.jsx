@@ -1,5 +1,5 @@
 
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -10,10 +10,13 @@ const Footer = () => {
         <h2>ine-Hub</h2>
         </span>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptatibus quos commodi sint expedita cumque deleniti, ratione magni
-          ex dicta.
+            Welcome to Pine-Hub: At Pine Intelligence Trading Technology, our
+            experienced team of asset management professionals offers a proven
+            and unique hybrid system that provides a sustainable and low-risk
+            income stream. Join us today to safeguard your financial future with
+            our cutting-edge automated passive income technology.
         </p>
+        <Link to='/Term' className="link">PRIVACY POLICY <i class="fa-regular fa-hand-point-left"></i></Link>
         <footer><p>&copy; 2023 Pine-Hub. All rights reserved.</p></footer>
       </div>
       <div className="footer-box">
