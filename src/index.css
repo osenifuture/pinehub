@@ -355,6 +355,10 @@ html {
   color: white;
 }
 
+.footer-box > .link:hover{
+  color: #18d5fe;
+}
+
 .footer-box > .link > .fa-regular{
   color: #18d5fe;
 }
