@@ -398,6 +398,37 @@ span > a > .fa-brands {
   line-height: 1.5rem;
 }
 
+.notfound-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0F1123;
+  flex-direction: column;
+}
+.notfound-container > span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.notfound-container > h1{
+  font-size: 3rem;
+  color: #18d5fe;
+}
+.notfound-container > span > h1{
+  font-size: 15rem;
+  color: #18d5fe;
+}
+
+
+.notfound-container > span > .fa-solid{
+  font-size: 15rem;
+  color: white;
+}
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -470,6 +501,24 @@ span > a > .fa-brands {
 
   .policy-container > h3{
     font-size: 1rem;
-    /* text-align: center; */
+  }
+
+  .notfound-container{
+    width: 100%;
+    padding: 10px;
+  }
+
+  .notfound-container > span{
+    flex-direction: column;
+    margin: 8px 0px;
+  }
+
+  .notfound-container > span > h1{
+    font-size: 4rem;
+  }
+
+  .notfound-container > h1{
+    font-size: 1rem;
+
   }
 }

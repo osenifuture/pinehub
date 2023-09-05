@@ -11,8 +11,12 @@ const NotFound = () => {
     }, [navigate])
 
     return(
-        <div>
-            <h2>ooop an error occoured page not found</h2>
+        <div className="notfound-container">
+            <span>
+            <i class="fa-solid fa-cat"></i>
+            <h1>404</h1>
+            </span>
+            <h1>This Is Not The Page You Are Looking For </h1>
         </div>
     )
 };
