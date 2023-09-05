@@ -12,6 +12,7 @@ const Home = () => {
   }, []);
   return (
     <Fragment>
+    
       <div className="slider-con" data-aos="zoom-in">
         <Slider />
       </div>
@@ -35,7 +36,7 @@ const Home = () => {
           <button data-aos="fade-up">Get Started</button>
         </div>
       </div>
-      <div className="about-container">
+      <div className="home-container4">
       <span>   
         <h1 data-aos="fade-down">
           Pine-Hub is committed to providing steady gains and unparalleled
@@ -43,7 +44,7 @@ const Home = () => {
           experts. Our advanced trading software, CloudIntelligence, utilizes
           top-tier algorithms to enhance your growth potential and
           profitability. Experience the forefront of professional cryptocurrency
-          growth with <Link to='/' className="pine">Pine-Hub</Link> today.
+          growth with <Link to='/Term' className="pine">Pine-Hub</Link> today.
         </h1>
         </span>
       </div>

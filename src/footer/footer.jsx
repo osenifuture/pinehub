@@ -16,7 +16,7 @@ const Footer = () => {
             income stream. Join us today to safeguard your financial future with
             our cutting-edge automated passive income technology.
         </p>
-        <Link to='/Term' className="link">PRIVACY POLICY <i class="fa-regular fa-hand-point-left"></i></Link>
+        <Link to='/Term' className="link">PRIVACY POLICY </Link>
         <footer><p>&copy; 2023 Pine-Hub. All rights reserved.</p></footer>
       </div>
       <div className="footer-box">

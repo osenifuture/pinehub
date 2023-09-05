@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .home-mother {
   width: 100%;
   height: 500px;
@@ -17,23 +18,20 @@
 .home-container1 {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background: linear-gradient(to top,#0F1123,  #30083e );
 
 }
 
 .home-container1 > .home-box1 {
-  width: 100%;
+  width: 40%;
   height: 550px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
 }
-
-
 
 .home-box1 > h1 {
   color: #18d5fe;
@@ -53,8 +51,9 @@
 }
 
 .home-box1 > img {
-  width: 90%;
-  height: 60%;
+  width: 100%;
+  height: auto;
+
 }
 
 .home-box1 > button {
@@ -172,19 +171,43 @@
 
 .home-container3{
   width: 100%;
-  /* height: 400px; */
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   background: radial-gradient(closest-corner at  70%, #b037dd, #0F1123 );
 }
+
+.home-container4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0F1123;
+  padding: 20px 120px;
+}
+
+
+.home-container4 > span > h1{
+  color:white;
+  margin: 40px 0px;
+  font-weight: lighter;
+}
+
+.home-container4 > span > h1 > .pine{
+  color: #18d5fe;
+  text-decoration: none;
+}
+
+
+
 
 .platform-container{
   width: 80%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 100px;
+  gap: 20px;
   color: white;
   flex-direction: column;
 }
@@ -305,10 +328,6 @@
     flex-direction: column;
   }
 
-  .home-container1{
-    width: 100%;
-    flex-direction: column;
-  }
 
   .homecontainer2-inner{
     width: 100%;
@@ -329,6 +348,8 @@
   .platform-box2 > .box{
     width: 80%;
   }
+
+  
 
 }
 
@@ -362,6 +383,7 @@
   .home-container1 {
     width: 100%;
     flex-direction: column;
+    padding: 20px;
   }
   
   .home-container1 > .home-box1 {
@@ -435,17 +457,15 @@
     margin: 10px 0px ;
   }
 
+  .home-container4{
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+ 
+
 }
 
-
-.home-container {
-  
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  
-}
 
 h1 {
   font-size: 24px;

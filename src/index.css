@@ -116,7 +116,7 @@ html {
   }
 
   .mobile-link {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -125,9 +125,12 @@ html {
     background-color:#0F1123;
     top: 70px;
     position: absolute;
+     transform: translateX(-0%);
+    transition: transform 0.3s ease;
     gap: 30px;
   }
 
+ 
   .mobile-link > .link{
     color: white;
   }
