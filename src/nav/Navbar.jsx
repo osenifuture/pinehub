@@ -57,11 +57,11 @@ const Navbar = () => {
                     </Link>
                     <Link to="/About" className="link">About</Link>
                     <Link to="/Service" className="link">Service</Link>
+                    <Link to="/Affiliate" className="link">Affiliate</Link>
                 {
                     isLoggedIn && (
                         <Link to='/Profile' className="profile-link">
                             Profile
-                        <i className="fa-solid fa-user" ></i>
                         </Link>
                     )
                 }

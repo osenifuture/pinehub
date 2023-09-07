@@ -13,6 +13,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Profile from "./Route/Profile";
 import Term from "./Faq/Term";
+import Affiliate from "./Route/Affiliate";
 
 
 
@@ -33,6 +34,7 @@ function App() {
         <Route path="/SignUp" element={<SignUp/>}/>
         <Route path="/Profile" element={<Profile/>}/>
         <Route path="/Term" element={<Term/>}/>
+        <Route path="/Affiliate" element={<Affiliate/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Route>
     </Routes>
