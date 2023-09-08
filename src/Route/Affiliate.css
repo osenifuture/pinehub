@@ -198,7 +198,6 @@
         margin: 10px 0px;
     }
 
-    
 }
 
 
@@ -209,7 +208,7 @@
     align-items: flex-start;
     background-color: #0f1123;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 70px;
 }
 
 .cookies-container > h1{
@@ -244,10 +243,9 @@
     margin: 20px 0px;
 }
 
-.cookies-box > ul > li > h3{
-  width: 100%;
-  display: flex;
-  gap: 5px;
+
+.cookies-box > ul > li > p{
+   line-height: 1.5rem;
 }
 
 .disclaimer-container{
@@ -267,6 +265,13 @@
 .disclaimer-container > p{
     color: white;
     line-height: 1.9rem;
+}
+
+@media screen and (max-width:650px) {
+    .cookies-container{
+        padding: 20px;
+    }
+    
 }
 
 

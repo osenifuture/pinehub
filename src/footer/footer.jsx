@@ -40,7 +40,7 @@ const Footer = () => {
       <div className="footer-box">
         <h3>Get In Touch</h3>
         <div className="footerbox-inner">
-        <span><i class="fa-solid fa-location-dot"></i><p>123 Street, New York, USA</p></span>
+        <span><i class="fa-solid fa-location-dot"></i><p>11 Norfolk Avenue, London United Kingdom, N156JX</p></span>
         <span><i class="fa-solid fa-phone"></i><a href="tel:">+012 345 67890</a></span>
         <span><i class="fa-solid fa-envelope"></i><a href="/">info@example.com</a></span>
         </div>

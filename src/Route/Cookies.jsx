@@ -180,9 +180,9 @@ const Cookies = () => {
         </p>
         <div className="cookies-box">
             <ul>
-                <li><h3>Name: <p>Pine</p></h3></li>
-                <li><h3>Email: <p>ppinehub@gmail.com</p></h3></li>
-                <li><h3>Address: <p>Lorem ipsum dolor sit amet consectetur !</p></h3></li>
+            <li><p>Name:Pine-Hub</p></li>
+            <li> <p>Email:ppinehub@gmail.com</p></li>
+            <li><p>Address:11 Norfolk Avenue, London United Kingdom, N156JX</p></li>
             </ul>
         </div>
         <h3>Contacting Us</h3>
