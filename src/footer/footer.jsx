@@ -17,6 +17,8 @@ const Footer = () => {
             our cutting-edge automated passive income technology.
         </p>
         <Link to='/Term' className="link">PRIVACY POLICY </Link>
+        <Link to='/Disclaimer' className="link">DISCLAIMER </Link>
+        <Link to='/Cookies' className="link">COOKIES POLICY </Link>
         <footer><p>&copy; 2023 Pine-Hub. All rights reserved.</p></footer>
       </div>
       <div className="footer-box">

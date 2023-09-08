@@ -14,6 +14,8 @@ import { useEffect } from "react";
 import Profile from "./Route/Profile";
 import Term from "./Faq/Term";
 import Affiliate from "./Route/Affiliate";
+import Dislaimer from "./Route/Disclaimer";
+import Cookies from "./Route/Cookies";
 
 
 
@@ -34,6 +36,8 @@ function App() {
         <Route path="/SignUp" element={<SignUp/>}/>
         <Route path="/Profile" element={<Profile/>}/>
         <Route path="/Term" element={<Term/>}/>
+        <Route path="/Disclaimer" element={<Dislaimer/>}/>
+        <Route path="/Cookies" element={<Cookies/>}/>
         <Route path="/Affiliate" element={<Affiliate/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Route>
