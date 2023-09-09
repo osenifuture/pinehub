@@ -255,7 +255,7 @@
     align-items: flex-start;
     flex-direction: column;
     background-color: #0f1123;
-    padding: 20px;
+    padding: 20px 100px;
 }
 
 .disclaimer-container > h1{
@@ -269,6 +269,21 @@
 
 @media screen and (max-width:650px) {
     .cookies-container{
+        padding: 20px;
+    }
+
+    .disclaimer-container{
+        padding: 20px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .cookies-container{
+        padding: 20px;
+    }
+
+    .disclaimer-container{
         padding: 20px;
     }
     
