@@ -9,7 +9,7 @@ const Platform = () => {
         Aos.init({ duration: 1000 });
       }, []);
     const [isOpen1, setIsOpen1] = useState(true);
-    const [isOpen2, setIsOpen2] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(true);
 
     const handleToggle1 = () => {
            setIsOpen1(true)

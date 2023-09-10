@@ -30,6 +30,8 @@ const Navbar = () => {
                     </Link>
                     <Link to="/About" className="link">About</Link>
                     <Link to="/Service" className="link">Service</Link>
+                    <Link to="/Investment" className="link">Investment Plan</Link>
+                    <Link to="/Term" className="link">Terms</Link>
                     <Link to="/Affiliate" className="link">Affiliate</Link>
                 {
                     isLoggedIn && (

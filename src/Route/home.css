@@ -56,7 +56,7 @@
 
 }
 
-.home-box1 > button {
+.home-box1 > .getstarted-link{
   padding: 15px 30px;
   border: none;
   outline: none;
@@ -64,6 +64,8 @@
   background: linear-gradient(to right, #18d5fe, #b037dd);
   margin: 20px 0px;
   color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .home-container2{

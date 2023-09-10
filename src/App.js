@@ -16,6 +16,7 @@ import Term from "./Faq/Term";
 import Affiliate from "./Route/Affiliate";
 import Dislaimer from "./Route/Disclaimer";
 import Cookies from "./Route/Cookies";
+import Investment from "./Route/Investment";
 
 
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="/LogIn" element={<LogIn/>}/>
         <Route path="/SignUp" element={<SignUp/>}/>
         <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/Investment" element={<Investment/>}/>
         <Route path="/Term" element={<Term/>}/>
         <Route path="/Disclaimer" element={<Dislaimer/>}/>
         <Route path="/Cookies" element={<Cookies/>}/>

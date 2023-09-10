@@ -436,9 +436,17 @@ span > a > .fa-brands {
 
 
 @media screen and (max-width: 768px) {
+/* 
+  .mobile-link > .link{
+    font-size: small;
+  } */
 
   .logo{
     width: 40%;
+  }
+
+  .logo > p{
+    font-size: small;
   }
  
   .footer-container {

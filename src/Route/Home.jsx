@@ -33,7 +33,7 @@ const Home = () => {
             income stream. Join us today to safeguard your financial future with
             our cutting-edge automated passive income technology.
           </p>
-          <button data-aos="fade-up">Get Started</button>
+          <Link to='/Signup' data-aos="fade-up" className="getstarted-link">Get Started</Link>
         </div>
       </div>
       <div className="home-container4">
