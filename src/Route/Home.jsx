@@ -12,7 +12,6 @@ const Home = () => {
   }, []);
   return (
     <Fragment>
-    
       <div className="slider-con" data-aos="zoom-in">
         <Slider />
       </div>
@@ -20,74 +19,46 @@ const Home = () => {
         <div className="home-box1">
           <img
             data-aos="fade-up"
-            src="https://themewagon.github.io/crypto/img/about-img.png"
+            src="https://i.ibb.co/JcMZzMN/ARTIFICIAL-INTELLIGENCE-removebg-preview.png"
             alt=""
           />
         </div>
         <div className="home-box1">
-          <h1 data-aos="fade-down">Pine-Hub</h1> 
+          <h1 data-aos="fade-down">
+            LEVEL UP YOUR FINANCIAL GAME WITH PINE-HUB
+          </h1>
           <p data-aos="fade-up">
-            Welcome to Pine-Hub: At Pine Intelligence Trading Technology, our
-            experienced team of asset management professionals offers a proven
-            and unique hybrid system that provides a sustainable and low-risk
-            income stream. Join us today to safeguard your financial future with
-            our cutting-edge automated passive income technology.
+            The Pine-Intelligence Technology, a great team of experienced expert
+            traders and asset managers, offers a proven and unique hybrid system
+            that provides a sustainable and low-risk income stream. Join us
+            today to safeguard your financial future with our cutting-edge
+            automated technology.
           </p>
-          <Link to='/Signup' data-aos="fade-up" className="getstarted-link">Get Started</Link>
+          <Link to="/Signup" data-aos="fade-up" className="getstarted-link">
+            Get Started
+          </Link>
         </div>
       </div>
       <div className="home-container4">
-      <span>   
-        <h1 data-aos="fade-down">
-          Pine-Hub is committed to providing steady gains and unparalleled
-          customer service through our team of highly experienced crypto
-          experts. Our advanced trading software, CloudIntelligence, utilizes
-          top-tier algorithms to enhance your growth potential and
-          profitability. Experience the forefront of professional cryptocurrency
-          growth with <Link to='/Term' className="pine">Pine-Hub</Link> today.
-        </h1>
+        <h2>Ready to level up your financial game</h2>
+        <span>
+          <h1 data-aos="fade-down">
+            Pine-Hub is committed to providing steady gains and unparalleled
+            customer service through our team of highly experienced experts and
+            our advanced intelligent technology the Pine-intelligence, which
+            utilizes top-tier algorithms to enhance your growth potential and
+            profitability. Experience the forefront of professional portfolio
+            growth with Pine-Hub today.
+          </h1>
         </span>
       </div>
       <div className="home-container3">
-          <Platform/>
+        <Platform />
       </div>
       <div className="homegen-con">
-      <Homegen/>
+        <Homegen />
       </div>
-      <div className="home-container2">
-        <span data-aos="fade-down"> 
-          <h1>Our Investment Plans</h1>
-        </span>
-        <div className="homecontainer2-inner">
-          <div className="home-box2">
-            <i className="fa-solid fa-cube"></i>
-            <span data-aos="fade-up">
-              <h3>Tier-1</h3>
-              <p>6% return on investment after 3 days</p>
-              <p>Maximum deposit = $500</p>
-              <p>Minimum deposit = $14,999</p>
-            </span>
-          </div>
-          <div className="home-box2">
-            <i class="fa-solid fa-coins"></i>
-            <span data-aos="fade-down">
-              <h3>Tier-2</h3>
-              <p>28% return on investment after 7 days</p>
-              <p>Maximum deposit = $15,000</p>
-              <p>Minimum deposit = $79,999</p>
-            </span>
-          </div>
-          <div className="home-box2">
-            <i class="fa-solid fa-layer-group"></i>
-            <span data-aos="fade-up">
-              <h3>Tier-3</h3>
-              <p>6% return on investment after 3 days</p>
-              <p>Maximum deposit = $80,000</p>
-              <p>Minimum deposit = $2,500,000</p>
-            </span>
-          </div>
-        </div>
-      </div>
+    
       <div className="corevalue-mother">
         <div className="corevalue-container1">
           <h1>Pine Values</h1>

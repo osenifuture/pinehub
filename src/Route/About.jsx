@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom";
 import "./About.css";
 import { Fragment, useEffect } from "react";
-import Faq from "../Faq/Faqs";
 import Aos from "aos";
 import "aos/dist/aos.css"
+import CountContainer from "../Count/CountContainer";
+import OurService from "../Count/OurService";
 
 const About = () => {
   useEffect(() => {
     Aos.init({duration:1000})
   }, [])
   return (
+    <>
+    
     <Fragment>
 
     <div className="about-container">
@@ -60,12 +63,89 @@ const About = () => {
       </div>
         </span>
     </div>
-    <div className="faq-mother">
-        <h1 data-aos="fade-down">FAQS</h1>
-            <Faq/>
-      </div>
-    
+   
     </Fragment>
+    <Fragment>
+    <div className="service-central">
+      <OurService />
+      <div className="service-mother">
+        <div className="features-box">
+          <h1 data-aos="fade-down">Our Features</h1>
+          <p data-aos="fade-down">
+            Bitcoin is the simplest way to exchange money at very low cost.
+          </p>
+        </div>
+        <div className="service-container1">
+          <div data-aos="fade-up" className="service-box">
+            <i className="fa-solid fa-earth-asia"></i>
+            <span>
+              <h3>Website</h3>
+              <p>
+                A digital platform providing information, news, and services
+                related to cryptocurrencies, blockchain technology, and
+                decentralized finance (DeFi).
+              </p>
+            </span>
+          </div>
+          <div data-aos="fade-up" className="service-box">
+            <i className="fa-solid fa-shield-halved"></i>
+            <span>
+              <h3>Safe and Secure</h3>
+              <p>
+                A trustworthy crypto website implements robust encryption,
+                two-factor authentication, regular security audits, and user
+                education to ensure data and financial safety.
+              </p>
+            </span>
+          </div>
+          <div data-aos="fade-down" className="service-box">
+            <i className="fa-solid fa-wallet"></i>
+            <span>
+              <h3>Wallets</h3>
+              <p>
+                Crypto wallets store private keys and enable cryptocurrency
+                transactions securely on blockchain networks.
+              </p>
+            </span>
+          </div>
+          <div data-aos="fade-up" className="service-box">
+            <i className="fa-solid fa-headphones"></i>
+            <span>
+              <h3>Expert Support</h3>
+              <p>
+                Proficient guidance and assistance provided by knowledgeable
+                individuals to aid and educate the crypto community.
+              </p>
+            </span>
+          </div>
+          <div data-aos="fade-down" className="service-box">
+            <i class="fa-solid fa-rotate"></i>
+            <span>
+              <h3>Instant Exchange</h3>
+              <p>
+                Instant exchange facilitates swift and seamless conversion of
+                one cryptocurrency to another, enhancing liquidity and user
+                convenience.
+              </p>
+            </span>
+          </div>
+          <div data-aos="fade-up" className="service-box">
+            <i class="fa-solid fa-sliders"></i>
+            <span>
+              <h3>Recuring Buys</h3>
+              <p>
+                Recurring buy involves automatic, scheduled purchases of
+                cryptocurrencies at set intervals, promoting consistent
+                investment and long-term growth in the crypto community.
+              </p>
+            </span>
+          </div>
+        </div>
+      </div>
+      <CountContainer />
+    </div>
+  </Fragment>
+  </>
   );
 };
 

@@ -25,14 +25,12 @@ const Navbar = () => {
                 </Link>
             
                 <div className={`nav-link ${ismobile ? "mobile-link active" : ""} `} onClick={() => setIsmobile(false)}>
-                <Link to="/" className="link">
-                        Home
-                    </Link>
-                    <Link to="/About" className="link">About</Link>
-                    <Link to="/Service" className="link">Service</Link>
-                    <Link to="/Investment" className="link">Investment Plan</Link>
-                    <Link to="/Term" className="link">Terms</Link>
-                    <Link to="/Affiliate" className="link">Affiliate</Link>
+                <Link to="/" className="link">Home</Link>
+                <Link to="/About" className="link">About</Link>
+                <Link to="/Service" className="link">Faqs</Link>
+                <Link to="/Investment" className="link">Investment Plan</Link>
+                <Link to="/Term" className="link">Terms</Link>
+                <Link to="/Affiliate" className="link">Affiliate</Link>
                 {
                     isLoggedIn && (
                         <Link to='/Profile' className="profile-link">

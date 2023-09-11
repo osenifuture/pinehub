@@ -9,7 +9,6 @@ const OurService = () => {
   return (
     <Fragment>
       <div className="ourservice-mother">
-        <h1 data-aos="fade-down">Services</h1>
         <h2>Buy, Sell And Exchange Cryptocurrency</h2>
         <div className="service-container2">
           <div data-aos="fade-up" className="ourservice-box">
