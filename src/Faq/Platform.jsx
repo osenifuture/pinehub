@@ -19,15 +19,15 @@ const Platform = () => {
           <h3>Register an account with all required details correctly</h3>
         </div>
         <div className="box" data-aos="fade-up">
-        <i class="fa-regular fa-hand-pointer"></i> 
+        <i className="fa-regular fa-hand-pointer"></i> 
           <h3>Choose a plan to maximize your earnings</h3>
         </div>
         <div className="box" data-aos="fade-down">
-        <i class="fa-brands fa-cc-amazon-pay"></i>
+        <i className="fa-brands fa-cc-amazon-pay"></i>
           <h3>Make your deposit and get started</h3>
         </div>
         <div className="box" data-aos="fade-up">
-        <i class="fa-solid fa-seedling"></i>
+        <i className="fa-solid fa-seedling"></i>
           <h3>Begin accumulating profits daily until assured target profit has been reached</h3>
         </div>
         <div className="box" data-aos="fade-down">
@@ -43,15 +43,15 @@ const Platform = () => {
 
       <div className="platform-box2" data-aos="flip-up">
         <div className="box" data-aos="fade-down">
-        <i class="fa-solid fa-shield-cat"></i> 
+        <i className="fa-solid fa-shield-cat"></i> 
           <h3>Secure and reliable platform for enhancing your asset growth.</h3>
         </div>
         <div className="box" data-aos="fade-up">
-        <i class="fa-solid fa-seedling"></i>
+        <i className="fa-solid fa-seedling"></i>
           <h3>Assured earnings on all investments effortlessly</h3>
         </div>
         <div className="box" data-aos="fade-down">
-        <i class="fa-solid fa-house-signal"></i>
+        <i className="fa-solid fa-house-signal"></i>
           <h3>Cutting-edge security measures to safeguard your assets and their growth.</h3>
         </div>
         <div className="box" data-aos="fade-up">
@@ -59,7 +59,7 @@ const Platform = () => {
           <h3>Experienced team of professionals dedicated to your success.</h3>
         </div>
         <div className="box" data-aos="fade-down">
-        <i class="fa-brands fa-bitcoin"></i>
+        <i className="fa-brands fa-bitcoin"></i>
           <h3>Flexible and easy-to-use with instant withdrawals.</h3>
         </div>
       </div>

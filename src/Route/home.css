@@ -369,7 +369,7 @@
   
   .home-container1 {
     width: 100%;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 20px;
   }
   
@@ -560,7 +560,7 @@ h1 {
   }
 
   .swiper-container {
-    height: 60vh;
+    height: 80vh;
   }
 
 

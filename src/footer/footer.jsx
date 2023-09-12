@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-box">
         <span>
-          <i class="fa-brands fa-pinterest"></i>
+          <i className="fa-brands fa-pinterest"></i>
           <h2>ine-Hub</h2>
         </span>
         <p>
@@ -48,15 +48,15 @@ const Footer = () => {
         <h3>Get In Touch</h3>
         <div className="footerbox-inner">
           <span>
-            <i class="fa-solid fa-location-dot"></i>
+            <i className="fa-solid fa-location-dot"></i>
             <p>11 Norfolk Avenue, London United Kingdom, N156JX</p>
           </span>
           <span>
-            <i class="fa-solid fa-phone"></i>
+            <i className="fa-solid fa-phone"></i>
             <a href="tel:">+012 345 67890</a>
           </span>
           <span>
-            <i class="fa-solid fa-envelope"></i>
+            <i className="fa-solid fa-envelope"></i>
             <a href="/">info@example.com</a>
           </span>
         </div>

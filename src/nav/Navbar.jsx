@@ -16,7 +16,7 @@ const Navbar = () => {
         <Fragment>
             <div className="nav-container">
                 <Link to="/" className="logo">
-                <i class="fa-brands fa-pinterest"></i>
+                <i className="fa-brands fa-pinterest"></i>
                     <p>ine-Hub</p>
                 </Link>
             
