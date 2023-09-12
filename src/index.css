@@ -79,7 +79,6 @@ html {
 
 
 .nav-link > .profile-link{
-  /* margin-right: 40px; */
   display: flex;
   color:#18d5fe;
   gap: 3px;
@@ -90,8 +89,6 @@ html {
 .nav-link > .profile-link > .fa-solid{
   color: #18d5fe;
 }
-
-
 
 
 
@@ -529,4 +526,23 @@ span > a > .fa-brands {
     font-size: 1rem;
 
   }
+}
+
+
+.cert-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.cert-container h1 {
+  margin: 40px 0px;
+}
+
+
+.cert-container img {
+  width: 50%;
+  border: 1px solid lightgray;
+  margin-bottom: 40px;
 }

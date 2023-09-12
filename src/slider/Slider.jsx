@@ -62,21 +62,6 @@ const Slider = () => {
                   </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <img src="https://i.ibb.co/1XSb5t7/pexels-anna-nekrashevich-6802049.jpg" alt="Slide 4" />
-          <div className="info">
-            <span>Stronger Fundations.</span>
-            <h1>Greater Heights</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-                 fuga fugit doloremque fugiat alias veniam assumenda corrupti, earum hic,
-                  tempora voluptatum sint illo iure, sequi similique atque consequuntur eligendi aut?
-                  </p>
-                  <div className="log">
-                    <Link to='/login'>LOGIN</Link>
-                    <Link to='/Signup'>CREATE ACCOUNT</Link>
-                  </div>
-          </div>
-        </SwiperSlide>
       </Swiper>
     </div>
   );

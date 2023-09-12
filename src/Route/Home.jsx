@@ -19,7 +19,7 @@ const Home = () => {
         <div className="home-box1">
           <img
             data-aos="fade-up"
-            src="https://i.ibb.co/JcMZzMN/ARTIFICIAL-INTELLIGENCE-removebg-preview.png"
+            src="https://i.ibb.co/p4x8Nzg/about-pic-8850b2e3d6642360f753.gif"
             alt=""
           />
         </div>
@@ -43,22 +43,34 @@ const Home = () => {
         <h2>Ready to level up your financial game</h2>
         <span>
           <h1 data-aos="fade-down">
-            Pine-Hub is committed to providing steady gains and unparalleled
-            customer service through our team of highly experienced experts and
-            our advanced intelligent technology the Pine-intelligence, which
-            utilizes top-tier algorithms to enhance your growth potential and
-            profitability. Experience the forefront of professional portfolio
-            growth with Pine-Hub today.
+            Pine-Hub provides a powerful solution for enhancing your portfolio.
+            With our advanced intelligent BOT system, which offers every memebr
+            the potential to earn daily profits ranging from 0.5% to 8%. You can
+            also refer others and earn more as well through our referral
+            program.
           </h1>
         </span>
       </div>
       <div className="home-container3">
         <Platform />
       </div>
+      <div className="home-container4">
+        <h2>Our Mission</h2>
+        <span>
+          <h1 data-aos="fade-down">
+            At Pine-Hub, our mission is to democratize the decentralized market
+            and make it accessible to all. We believe that our expertise in the
+            decentralized market can be a powerful tool for investors to
+            maximise their returns. We understand that not everyone has prior
+            knowledge, and that's why our platform is user-friendly and easy to
+            navigate.
+          </h1>
+        </span>
+      </div>
       <div className="homegen-con">
         <Homegen />
       </div>
-    
+
       <div className="corevalue-mother">
         <div className="corevalue-container1">
           <h1>Pine Values</h1>

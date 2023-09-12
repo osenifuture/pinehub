@@ -8,14 +8,10 @@ const Navbar = () => {
     const {isLoggedIn} = useContext(AuthContext);
     const [ismobile, setIsmobile] = useState(false);
     
-
-
-
     const handleMenu = () => {
         setIsmobile(!ismobile);
     };
     
-
     return (
         <Fragment>
             <div className="nav-container">

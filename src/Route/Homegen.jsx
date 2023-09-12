@@ -3,7 +3,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Homegen = () => {
-
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -184,46 +183,44 @@ const Homegen = () => {
             {pinehub2 && (
               <span data-aos="fade-up">
                 We generate gains by integrating expert growth strategies with
-                our unique AI-driven trading tool, CloudIntelligence. Our
+                our unique AI-driven trading tool, Pine-Intelligence. Our
                 skilled traders and analysts leverage their in-depth
-                understanding of the cryptocurrency market, along with
+                understanding of the decentralized market, along with
                 technological resources such as the Bloomberg Terminal, to
                 identify profitable growth opportunities. Our cutting-edge
-                trading bot, CloudIntelligence, is pivotal in our gain
+                trading bot, Pine-Intelligence, is pivotal in our gain
                 generation process. It continuously analyzes vast volumes of
                 market data and trends to execute precise transactions, ensuring
-                high precision and profitability in the volatile crypto market.
-                By combining human expertise with technological innovation,
-                we're able to consistently deliver exceptional returns on your
-                funds, minimizing risks and maximizing gains.
+                high precision and profitability in the volatile decentralized
+                market. By combining human expertise with technological
+                innovation, we're able to consistently deliver exceptional
+                returns on your funds, minimizing risks and maximizing gains.
               </span>
             )}
 
             <li onClick={handlepine3}>
-              What is Pine-Hubintenligence and how does it work{" "}
+              What is Pine-Hub intenligence and how does it work{" "}
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub3 && (
               <span data-aos="fade-up">
-                CloudIntelligence is CloudFi's proprietary AI-driven trading
+                Pine-Intelligence is Pine-hub's proprietary AI-driven trading
                 tool, constructed with the sole aim to boost growth yields in
-                the cryptocurrency market. CloudIntelligence continuously
+                the decentralized market. Pine-Intelligence continuously
                 processes immense volumes of market data, identifies patterns
                 and trends, and makes astute trading decisions in real-time by
                 using advanced machine learning algorithms and data analysis
                 methodologies. Key components employed in forecasting price
                 shifts and generating fruitful growth strategies include
                 technical analysis, fundamental analysis, and sentiment
-                analysis. The adaptive algorithms of CloudIntelligence are
+                analysis. The adaptive algorithms of Pine-Intelligence are
                 designed to learn and evolve in response to ever-shifting market
                 conditions, ensuring the trading bot stays abreast of market
-                trends and insights. By fusing CloudIntelligence with the
+                trends and insights. By fusing Pine-Intelligence with the
                 expertise of our seasoned growth team, we can execute
                 transactions with high precision and efficiency, minimizing
                 risks and optimizing gains for our clientele. This blend of
-                human acumen and cutting-edge technology sets CloudFi apart,
-                enabling us to consistently yield gains in the challenging and
-                volatile crypto market.
+                human acumen.
               </span>
             )}
 
@@ -234,17 +231,20 @@ const Homegen = () => {
             </li>
             {pinehub4 && (
               <span data-aos="fade-up">
-                While a daily return of 1.25% may seem appealing, it is
-                important to understand that the cryptocurrency market is highly
+                Are our returns sustainable, and how do you manage to generate
+                such good returns? While our returns might seem appealing, it is
+                important to understand that the decentralized market is highly
                 volatile and offers significant opportunities for growth. At
-                CloudFi, our proprietary trading bot, CloudIntelligence, and our
-                skilled team leverage market volatility to generate returns.
+                Pine-Hub, our proprietary bot technology, Pine-Intelligence, and
+                our skilled team leverage market volatility to generate returns.
                 However, it is crucial to acknowledge that all gains come with
-                risks. Higher gains often come with higher risks. Before making
-                any decision, it is essential to carefully assess your risk
-                tolerance, financial growth, and overall market conditions.
-                Always be prepared for the possibility of loss and never use
-                more than you can afford to lose.
+                some risks. Higher gains often come with higher risks. Before
+                making any decision, it is essential to carefully assess your
+                risk tolerance, financial growth, and overall market conditions.
+                Always be prepared for the possibility of loss, although our
+                success rate has been outstanding ever since, and the assured
+                returns consistently come in. Never invest more than you can
+                afford to lose is always a smart investment strategy
               </span>
             )}
 
@@ -343,7 +343,7 @@ const Homegen = () => {
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub9 && (
-              <span data-aos="fade-up"> 
+              <span data-aos="fade-up">
                 Yes, we offer a Team Leaders program for dedicated and
                 high-performing users. To become a Team Leader, you must meet
                 the following criteria: - The investor must be at least on Tier
