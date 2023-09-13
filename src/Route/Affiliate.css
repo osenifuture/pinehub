@@ -228,6 +228,11 @@
     line-height: 1.8rem;
 }
 
+a{
+    color: #18d5fe;
+    text-decoration: none;
+}
+
 .cookies-box{
     width: 100%;
     display: flex;
@@ -277,6 +282,10 @@
     .disclaimer-container{
         padding: 20px;
     }
+
+    .agreement-container{
+        padding: 20px;
+    }
     
 }
 
@@ -290,6 +299,49 @@
     }
     
 }
+
+.agreement-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px 90px;
+    background-color: #0f1123;
+    color: white;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.agreement-container > h1{
+    margin: 10px 0px;
+}
+
+.agreement-container > h3{
+    margin: 10px 0px;
+}
+
+.agreement-container > h4{
+    margin: 10px 0px;
+}
+
+.agreement-container > p{
+    margin: 10px 0px;
+    line-height: 1.9rem;
+}
+
+.agreement-container > p > a{
+    color: #18d5fe;
+    text-decoration: none;
+}
+
+@media screen and (max-width:650px) {
+    .agreement-container{
+        padding: 20px;
+    }
+
+}
+
+
 
 
 

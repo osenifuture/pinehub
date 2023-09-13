@@ -32,6 +32,9 @@ const Footer = () => {
         <Link to="/Cookies" className="link">
           COOKIES POLICY{" "}
         </Link>
+        <Link to="/Agreement" className="link">
+          TERMS OF USE
+        </Link>
         <Link to="/Certification" className="link">
           CERTIFICATION
         </Link>

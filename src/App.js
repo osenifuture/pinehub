@@ -18,6 +18,7 @@ import Dislaimer from "./Route/Disclaimer";
 import Cookies from "./Route/Cookies";
 import Investment from "./Route/Investment";
 import Certification from "./Route/Certification";
+import Agreement from "./footer/Agreement";
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/Term" element={<Term/>}/>
         <Route path="/Disclaimer" element={<Dislaimer/>}/>
         <Route path="/Cookies" element={<Cookies/>}/>
+        <Route path="/Agreement" element={<Agreement/>}/>
         <Route path="/Affiliate" element={<Affiliate/>}/>
         <Route path="/Certification" element={<Certification/>}/>
         <Route path="*" element={<NotFound/>}/>
