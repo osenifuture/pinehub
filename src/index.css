@@ -100,7 +100,7 @@ html {
     width: 100%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     background-color:#171a32;
     height: 100vh;
@@ -131,7 +131,10 @@ html {
 
   .mobile-link > .link{
     color: white;
-    margin: 20px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    padding-bottom: 5px;
   }
 
   .mobile-menu {
