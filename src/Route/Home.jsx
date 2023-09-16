@@ -43,11 +43,12 @@ const Home = () => {
         <h2>Ready to level up your financial game</h2>
         <span>
           <h1 data-aos="fade-down">
-            Pine-Hub provides a powerful solution for enhancing your portfolio.
-            With our advanced intelligent BOT system, which offers every memebr
-            the potential to earn daily profits ranging from 0.5% to 8%. You can
-            also refer others and earn more as well through our referral
-            program.
+            Pine-Hub is committed to providing steady gains and unparalleled
+            customer service through our team of highly experienced experts and
+            our advanced intelligent technology the Pine-Intelligence, which
+            utilizes top-tier algorithms to enhance your growth potential and
+            profitability. Experience the forefront of professional portfolio
+            growth with Pine-Hub today.
           </h1>
         </span>
       </div>

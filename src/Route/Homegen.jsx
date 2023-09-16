@@ -204,23 +204,23 @@ const Homegen = () => {
             </li>
             {pinehub3 && (
               <span data-aos="fade-up">
-                Pine-Intelligence is Pine-hub's proprietary AI-driven trading
-                tool, constructed with the sole aim to boost growth yields in
-                the decentralized market. Pine-Intelligence continuously
-                processes immense volumes of market data, identifies patterns
-                and trends, and makes astute trading decisions in real-time by
-                using advanced machine learning algorithms and data analysis
-                methodologies. Key components employed in forecasting price
-                shifts and generating fruitful growth strategies include
-                technical analysis, fundamental analysis, and sentiment
-                analysis. The adaptive algorithms of Pine-Intelligence are
-                designed to learn and evolve in response to ever-shifting market
-                conditions, ensuring the trading bot stays abreast of market
-                trends and insights. By fusing Pine-Intelligence with the
-                expertise of our seasoned growth team, we can execute
-                transactions with high precision and efficiency, minimizing
-                risks and optimizing gains for our clientele. This blend of
-                human acumen.
+                Pine-Intelligence is Pine-hub's proprietary AI-driven
+                trading/mining tool, constructed with the sole aim to boost
+                growth yields in the decentralized market. Pine-Intelligence
+                continuously processes immense volumes of market data,
+                identifies patterns and trends, and makes astute trading
+                decisions in real-time by using advanced machine learning
+                algorithms and data analysis methodologies. Key components
+                employed in forecasting price shifts and generating fruitful
+                growth strategies include technical analysis, fundamental
+                analysis, and sentiment analysis. The adaptive algorithms of
+                Pine-Intelligence are designed to learn and evolve in response
+                to ever-shifting market conditions, ensuring the trading bot
+                stays abreast of market trends and insights. By fusing
+                Pine-Intelligence with the expertise of our seasoned growth
+                team, we can execute transactions with high precision and
+                efficiency, minimizing risks and optimizing gains for our
+                clientele. This blend of human acumen
               </span>
             )}
 
@@ -231,7 +231,7 @@ const Homegen = () => {
             </li>
             {pinehub4 && (
               <span data-aos="fade-up">
-                Are our returns sustainable, and how do you manage to generate
+                Are our returns sustainable, and how do we manage to generate
                 such good returns? While our returns might seem appealing, it is
                 important to understand that the decentralized market is highly
                 volatile and offers significant opportunities for growth. At
@@ -244,17 +244,17 @@ const Homegen = () => {
                 Always be prepared for the possibility of loss, although our
                 success rate has been outstanding ever since, and the assured
                 returns consistently come in. Never invest more than you can
-                afford to lose is always a smart investment strategy
+                afford to lose is always a smart investment strateg
               </span>
             )}
 
             <li onClick={handlepine5}>
-              To get started with crypto gains on pine-Hub, please follow these
+              To get started with trading gains on pine-Hub, please follow these
               steps: <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub5 && (
               <span data-aos="fade-up">
-                Getting started with crypto gains on CloudFi is easy. Follow
+                Getting started with trading gains on Pine-Hub is easy. Follow
                 these simple steps: - Register an account: Go to our website and
                 click on the "Register" button. Fill in the necessary
                 information and create an account. - Deposit funds: You're free
@@ -266,7 +266,7 @@ const Homegen = () => {
                 withdraw your profits at any time. Our withdrawal process is
                 quick and easy, allowing you to access your funds in no time. -
                 That's it! With these simple steps, you can start earning
-                profits with CloudFi. If you have any questions or need further
+                profits with Pine-Hub. If you have any questions or need further
                 assistance, our customer support team is always available to
                 help.
               </span>
@@ -278,114 +278,116 @@ const Homegen = () => {
             </li>
             {pinehub6 && (
               <span data-aos="fade-up">
-                Getting started with crypto gains on CloudFi is easy. Follow
-                these simple steps: - Register an account: Go to our website and
-                click on the "Register" button. Fill in the necessary
-                information and create an account. - Deposit funds: You're free
-                to deposit the amount that suits your financial strategy. Choose
-                from any of our convenient payment methods to fund your account.
-                - Begin accruing: Once your deposit is confirmed, you will start
-                earning daily gains on your growth. Our platform generates daily
-                gains of 1.25% for our users. - Withdraw your profits: You can
-                withdraw your profits at any time. Our withdrawal process is
-                quick and easy, allowing you to access your funds in no time. -
-                That's it! With these simple steps, you can start earning
-                profits with CloudFi. If you have any questions or need further
-                assistance, our customer support team is always available to
-                help.
+                You can earn commissions on Pine-Hub through our referral
+                program. You will receive a 5% commission on any deposit made by
+                your direct downline who is registered directly under you
+                through your referral link only!
               </span>
             )}
 
             <li onClick={handlepine7}>
-              How do you protect my funds?{" "}
+              How do we protect clients' funds?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub7 && (
               <span data-aos="fade-up">
-                You can earn commissions on CloudFi through our referral
-                program. For every person you refer to CloudFi who makes a
-                deposit, you will receive a commission based on their deposit
-                amount. Our referral commission structure is 6% - 4% - 2% - 1%,
-                depending on the level of the referral. To participate in the
-                referral program, you must have an active deposit on our
-                platform. Please note that to prevent abuse of the referral
-                system, we have set maximum commission caps for each tier of our
-                referral program.
+                We take the security of our clients' funds very seriously. We
+                have implemented a range of measures to protect your funds,
+                including: ~ Multi-signature wallets: We use multi-signature
+                wallets to ensure that any transactions require multiple
+                approvals before being executed, which makes it more difficult
+                for any unauthorized access or theft of funds ~ Offline storage:
+                The majority of our clients' funds are stored in offline cold
+                storage wallets, which are not connected to the internet and
+                therefore significantly reduce the risk of hacking and theft. ~
+                Regular audits: We conduct regular internal and external audits
+                to ensure that our security measures are up to date and
+                effective in protecting your funds. ~ Monitoring and alerts: We
+                have advanced monitoring and alert systems in place to detect
+                any unusual activity and to prevent any unauthorized access or
+                fraud. Overall, we have implemented a range of industry-standard
+                security measures to ensure that your funds are protected at all
+                times.
               </span>
             )}
 
             <li onClick={handlepine8}>
-              Do you offer a Team Leaders program?{" "}
+              What are the leadership ranks, criteria to be met, and benefit of
+              each rank?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub8 && (
               <span data-aos="fade-up">
-                Getting started with crypto gains on CloudFi is easy. Follow
-                these simple steps: - Register an account: Go to our website and
-                click on the "Register" button. Fill in the necessary
-                information and create an account. - Deposit funds: You're free
-                to deposit the amount that suits your financial strategy. Choose
-                from any of our convenient payment methods to fund your account.
-                - Begin accruing: Once your deposit is confirmed, you will start
-                earning daily gains on your growth. Our platform generates daily
-                gains of 1.25% for our users. - Withdraw your profits: You can
-                withdraw your profits at any time. Our withdrawal process is
-                quick and easy, allowing you to access your funds in no time. -
-                That's it! With these simple steps, you can start earning
-                profits with CloudFi. If you have any questions or need further
-                assistance, our customer support team is always available to
-                help.
+                <h3>MENTOR:</h3> To achieve the mentor rank, candidates must
+                have funded their account with up to $15,000 and have a minimum
+                of 25 active downlines. This rank comes with a monthly benefit
+                of $2,000 and an all expenses paid trip for 2 to any destination
+                of their choosing once a year!
+                <h3> EXECUTIVE:</h3> To achieve the executive rank, candidates
+                must have funded their account with up $35,000 and have a
+                minimum of 25 active downlines, of which at least 15 must have
+                funded their own individual account with up to $5000. This rank
+                comes with a monthly benefit of $5000 and an all expenses paid
+                trip for 2 to any destination of their choosing twice a year.
+                <h3>DIRECTOR:</h3> To achieve the director rank, candidates must
+                have funded their account with up $100,000 and have a minimum of
+                20 active downlines, of which at least 12 must have funded their
+                own individual account with up $15,000. This rank comes with a
+                monthly benefit of $10,000, an all expenses paid trip for 2 to
+                any destination of their choosing twice a year and a brand new
+                SUV!
               </span>
             )}
 
             <li onClick={handlepine9}>
-              Do you offer Team Leader rewards?{" "}
+              Why should I be joining Pine-Hub?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub9 && (
               <span data-aos="fade-up">
-                Yes, we offer a Team Leaders program for dedicated and
-                high-performing users. To become a Team Leader, you must meet
-                the following criteria: - The investor must be at least on Tier
-                2. AND - The investor's first-level team turnover must reach
-                $50,000 or more.
+                Well, here's the thing. We aren't in the business of
+                "convincing" people. We are well aware that this might not be
+                for everyone. We will still be making money today, regardless of
+                your joining, and that is exactly why we are excited about what
+                BOS is doing now and will be doing in the future. We are
+                passionate about opening up opportunities that enable everyone
+                to generate an income through a relatively low-risk investment.
               </span>
             )}
 
             <li onClick={handlepine10}>
-              Do you offer Team Leader rewards?{" "}
+              Is Pine-Hub a safe platform?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub10 && (
               <span data-aos="fade-up">
-                Yes, we offer Team Leader rewards based on the turnover of your
-                first-level team. The rewards are as follows: - $10,000 USD team
-                turnover: Reward = $200 USD - $50,000 USD team turnover: Reward
-                = $1,000 USD - $100,000 USD team turnover: Reward = $2,000 USD -
-                $500,000 USD team turnover: Reward = $5,000 USD - $1,000,000 USD
-                team turnover: Reward = $10,000 USD - $5,000,000 USD team
-                turnover: Reward = $50,000 USD - $50,000,000 USD team turnover:
-                Reward = $500,000 USD Please note that only the turnover of your
-                first-level team is counted towards these rewards. As a Team
-                Leader, you can earn substantial rewards by growing your team
-                and increasing your team's turnover.
+                Pine-hub controls one of the world's most sophisticated security
+                technology and maintenance teams and is constantly upgrading its
+                security systems to ensure the safety of user assets and
+                accounts.
               </span>
             )}
 
             <li onClick={handlepine11}>
-              Do you offer special referral rates for Team Leaders?{" "}
+              Are our returns sustainable, and how do we manage to generate such
+              good returns?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub11 && (
               <span data-aos="fade-up">
-                Yes, we offer special referral rates for Team Leaders on 10
-                levels as follows: - Level 1: 7% - Level 2: 4% - Level 3: 3% -
-                Level 4: 1% - Level 5: 1% - Level 6: 1% - Level 7: 1% - Level 8:
-                1% - Level 9: 1% - Level 10: 1% As a Team Leader, you can
-                benefit from these enhanced referral rates and earn commissions
-                from your referrals activities across multiple levels. This
-                provides additional incentives for building and nurturing a
-                successful team.
+                While our returns might seem appealing, it is important to
+                understand that the decentralized market is highly volatile and
+                offers significant opportunities for growth. At Pine-Hub, our
+                proprietary bot technology, Pine-Intelligence, and our skilled
+                team leverage market volatility to generate returns. However, it
+                is crucial to acknowledge that all gains come with some risks.
+                Higher gains often come with higher risks. Before making any
+                decision, it is essential to carefully assess your risk
+                tolerance, financial growth, and overall market conditions.
+                Always be prepared for the possibility of loss, although our
+                success rate has been outstanding ever since, and the assured
+                returns consistently come in. Never invest more than you can
+                afford to lose is always a smart investment strateg
               </span>
             )}
           </ul>
@@ -457,7 +459,7 @@ const Homegen = () => {
             </li>
             {pinedepo2 && (
               <span data-aos="fade-up">
-                At CloudFi, we aim to cater to a wide range of financial
+                At Pin-Hub, we aim to cater to a wide range of financial
                 capacities. You can deposit any amount between a minimum of $100
                 and a maximum of $1,000,000.
               </span>

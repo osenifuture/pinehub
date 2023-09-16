@@ -546,6 +546,7 @@ h1 {
   .info span {
     font-size: 24px;
     color: white;
+    text-align: center;
   }
 
   .info h1 {
@@ -650,6 +651,8 @@ h1 {
   overflow: auto;
   justify-content: flex-start;
 }
+
+
 }
 
 .gen,
@@ -697,6 +700,11 @@ h1 {
   line-height: 1.2;
   padding: 10px 0px;
   transition:  1s ease-in-out;
+}
+
+.gen > ul > span > h3{
+  margin: 8px 0px;
+  
 }
 
 

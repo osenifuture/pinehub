@@ -17,12 +17,11 @@ const About = () => {
         <div className="about-container">
           <span>
             <h1 data-aos="fade-down">
-              Pine-Hub is committed to providing steady gains and unparalleled
-              customer service through our team of highly experienced crypto
-              experts. Our advanced trading software, CloudIntelligence,
-              utilizes top-tier algorithms to enhance your growth potential and
-              profitability. Experience the forefront of professional
-              cryptocurrency growth with{" "}
+              Pine-Hub provides a powerful solution for enhancing your portfolio
+              with our advanced and intelligent automated system, which offers
+              every memebr the potential to earn a certain return on investment
+              (ROI). You can also refer others and earn more as well through our
+              referral program.
               <Link to="/" className="pine">
                 Pine-Hub
               </Link>{" "}
@@ -72,8 +71,8 @@ const About = () => {
         <div className="service-central">
           <OurService />
           <div className="home-container3">
-        <Platform />
-      </div>
+            <Platform />
+          </div>
           <CountContainer />
         </div>
       </Fragment>
