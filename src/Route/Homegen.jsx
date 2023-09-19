@@ -225,26 +225,25 @@ const Homegen = () => {
             )}
 
             <li onClick={handlepine4}>
-              Is a 1.25% daily return sustainable, and how do you manage to
-              generate such high returns?{" "}
+              Are our returns sustainable, and how do we manage to generate such
+              good returns?
               <i className="fa-regular fa-circle-down"></i>
             </li>
             {pinehub4 && (
               <span data-aos="fade-up">
-                Are our returns sustainable, and how do we manage to generate
-                such good returns? While our returns might seem appealing, it is
-                important to understand that the decentralized market is highly
-                volatile and offers significant opportunities for growth. At
-                Pine-Hub, our proprietary bot technology, Pine-Intelligence, and
-                our skilled team leverage market volatility to generate returns.
-                However, it is crucial to acknowledge that all gains come with
-                some risks. Higher gains often come with higher risks. Before
-                making any decision, it is essential to carefully assess your
-                risk tolerance, financial growth, and overall market conditions.
+                While our returns might seem appealing, it is important to
+                understand that the decentralized market is highly volatile and
+                offers significant opportunities for growth. At Pine-Hub, our
+                proprietary bot technology, Pine-Intelligence, and our skilled
+                team leverage market volatility to generate returns. However, it
+                is crucial to acknowledge that all gains come with some risks.
+                Higher gains often come with higher risks. Before making any
+                decision, it is essential to carefully assess your risk
+                tolerance, financial growth, and overall market conditions.
                 Always be prepared for the possibility of loss, although our
                 success rate has been outstanding ever since, and the assured
                 returns consistently come in. Never invest more than you can
-                afford to lose is always a smart investment strateg
+                afford to lose is always a smart investment strategy
               </span>
             )}
 
@@ -293,21 +292,25 @@ const Homegen = () => {
               <span data-aos="fade-up">
                 We take the security of our clients' funds very seriously. We
                 have implemented a range of measures to protect your funds,
-                including: ~ Multi-signature wallets: We use multi-signature
+                including:
+                <h3> ~ Multi-signature wallets:</h3> We use multi-signature
                 wallets to ensure that any transactions require multiple
                 approvals before being executed, which makes it more difficult
-                for any unauthorized access or theft of funds ~ Offline storage:
+                for any unauthorized access or theft of funds
+                <h3> ~ Offline storage:</h3>
                 The majority of our clients' funds are stored in offline cold
                 storage wallets, which are not connected to the internet and
-                therefore significantly reduce the risk of hacking and theft. ~
-                Regular audits: We conduct regular internal and external audits
-                to ensure that our security measures are up to date and
-                effective in protecting your funds. ~ Monitoring and alerts: We
-                have advanced monitoring and alert systems in place to detect
-                any unusual activity and to prevent any unauthorized access or
-                fraud. Overall, we have implemented a range of industry-standard
-                security measures to ensure that your funds are protected at all
-                times.
+                therefore significantly reduce the risk of hacking and theft.
+                <h3>~ Regular audits:</h3>
+                We conduct regular internal and external audits to ensure that
+                our security measures are up to date and effective in protecting
+                your funds. 
+                <h3>~ Monitoring and alerts:</h3>
+                We have advanced monitoring and alert systems in
+                place to detect any unusual activity and to prevent any
+                unauthorized access or fraud. Overall, we have implemented a
+                range of industry-standard security measures to ensure that your
+                funds are protected at all times.
               </span>
             )}
 
@@ -349,7 +352,7 @@ const Homegen = () => {
                 "convincing" people. We are well aware that this might not be
                 for everyone. We will still be making money today, regardless of
                 your joining, and that is exactly why we are excited about what
-                BOS is doing now and will be doing in the future. We are
+                Pine-Hub is doing now and will be doing in the future. We are
                 passionate about opening up opportunities that enable everyone
                 to generate an income through a relatively low-risk investment.
               </span>

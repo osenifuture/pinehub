@@ -93,7 +93,6 @@ html {
 
 
 @media screen and (max-width: 650px) {
-  
   .nav-link {
     position: fixed;
     top: 60px;
