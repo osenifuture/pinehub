@@ -11,10 +11,12 @@ export const AuthProvider = ({ children }) => {
 
   const Login = useCallback(() => {
     setIsLoggedIn(true);
+    localStorage.setItem('isLoggedIn', 'true')
   }, []);
 
   const Logout = useCallback(() => {
     setIsLoggedIn(false);
+    localStorage.setItem('isLoggedIn', 'false')
   }, []);
 
   useEffect(() => {
@@ -22,9 +24,7 @@ export const AuthProvider = ({ children }) => {
     setIsLoggedIn(storeLoginStatus === 'true')
   }, [])
 
-  useEffect(() => {
-    localStorage.setItem('isLoggedIn', isLoggedIn)
-  }, [isLoggedIn]);
+ 
 
   const value = { isLoggedIn, Login, Logout };
 

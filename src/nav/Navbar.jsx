@@ -1,11 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
-import { Fragment,  useState, useContext } from "react";
-import { AuthContext } from "../Context/AuthContext";
+import { Fragment,  useState } from "react";
+
 
 
 
 const Navbar = () => {
-    const {isLoggedIn} = useContext(AuthContext);
     const [ismobile, setIsmobile] = useState(false);
     
     const handleMenu = () => {
@@ -27,13 +26,6 @@ const Navbar = () => {
                 <Link to="/Investment" className="link">Investment Plan</Link>
                 <Link to="/Term" className="link">Terms</Link>
                 <Link to="/Affiliate" className="link">Affiliate</Link>
-                {
-                    isLoggedIn && (
-                        <Link to='/Profile' className="profile-link">
-                            Profile
-                        </Link>
-                    )
-                }
                 </div>
                 <div className="mobile-menu" onClick={handleMenu}>
                     {ismobile ? (
